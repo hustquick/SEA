@@ -1,0 +1,84 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$A$}]\begingroup heat transfer area (m$^2$)\nomeqref {24}
+		\nompageref{5}
+  \item [{$c_p$}]\begingroup specific heat at constant pressure (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {24}
+		\nompageref{5}
+  \item [{$c_v$}]\begingroup specific heat at constant volume (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {5}
+		\nompageref{3}
+  \item [{$e$}]\begingroup regenerator effectiveness\nomeqref {0}
+		\nompageref{3}
+  \item [{$J$}]\begingroup annular gap cylinder displacer (m)\nomeqref {19}
+		\nompageref{4}
+  \item [{$K$}]\begingroup dead volume factor\nomeqref {1}
+		\nompageref{3}
+  \item [{$k$}]\begingroup specific heat ratio ($c_p/c_v$), thermal conductivity ($\mathrm{W\cdot m^{-1}\cdot K^{-1}}$)\nomeqref {5}
+		\nompageref{3}
+  \item [{$m$}]\begingroup mass of working fluid in Stirling engine (kg)\nomeqref {2}
+		\nompageref{3}
+  \item [{$n_{se}$}]\begingroup number of Stirling engine in SEA\nomeqref {29}
+		\nompageref{5}
+  \item [{$P$}]\begingroup power of Stirling engine (W)\nomeqref {7}
+		\nompageref{4}
+  \item [{$p$}]\begingroup pressure (Pa)\nomeqref {12}\nompageref{4}
+  \item [{$Q$}]\begingroup absorbed heat (J)\nomeqref {7}\nompageref{4}
+  \item [{$q_m$}]\begingroup mass flow rate (kg$\cdot$s$^{-1}$)\nomeqref {24}
+		\nompageref{5}
+  \item [{$R$}]\begingroup gas constant (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {2}
+		\nompageref{3}
+  \item [{$s_{se}$}]\begingroup speed of Stirling engine (Hz)\nomeqref {7}
+		\nompageref{4}
+  \item [{$T_H$}]\begingroup working fluid temperature in the hot space (K)\nomeqref {0}
+		\nompageref{3}
+  \item [{$T_L$}]\begingroup working fluid temperature in the cold space (K)\nomeqref {0}
+		\nompageref{3}
+  \item [{$T_R$}]\begingroup effective working fluid temperature in regenerator (K)\nomeqref {0}
+		\nompageref{3}
+  \item [{$T_w$}]\begingroup wall temperature (K)\nomeqref {24}
+		\nompageref{5}
+  \item [{$U$}]\begingroup overall heat transfer coefficient (W$\cdot$m$^{-2}\cdot$K$^{-1}$)\nomeqref {24}
+		\nompageref{5}
+  \item [{$V_C$}]\begingroup compression volume (m$^3$)\nomeqref {2}
+		\nompageref{3}
+  \item [{$V_D$}]\begingroup total dead volume (m$^3$)\nomeqref {0}
+		\nompageref{3}
+  \item [{$V_E$}]\begingroup expansion volume (m$^3$)\nomeqref {2}
+		\nompageref{3}
+  \item [{$V_{DC}$}]\begingroup cold space dead volume (m$^3$)\nomeqref {0}
+		\nompageref{3}
+  \item [{$V_{DH}$}]\begingroup hot space dead volume (m$^3$)\nomeqref {0}
+		\nompageref{3}
+  \item [{$V_{DR}$}]\begingroup regenerator dead volume (m$^3$)\nomeqref {0}
+		\nompageref{3}
+  \item [{$W$}]\begingroup output work (J)\nomeqref {4}\nompageref{3}
+  \item [{$Z$}]\begingroup displacer stroke (m)\nomeqref {19}
+		\nompageref{4}
+
+ \nomgroup{C}
+
+  \item [{SEA}]\begingroup Stirling engine array\nomeqref {0}
+		\nompageref{1}
+
+ \nomgroup{G}
+
+  \item [{$\gamma_H$}]\begingroup space ratio in process 12\nomeqref {3}
+		\nompageref{3}
+  \item [{$\gamma_L$}]\begingroup space ratio in process 34\nomeqref {3}
+		\nompageref{3}
+  \item [{$\mu$}]\begingroup dynamic viscosity ($\mathrm{kg\cdot m^{-1}\cdot s^{-1}}$)\nomeqref {10}
+		\nompageref{4}
+
+ \nomgroup{S}
+
+  \item [{$c$}]\begingroup cooling fluid\nomeqref {25}\nompageref{5}
+  \item [{$h$}]\begingroup heating fluid\nomeqref {25}\nompageref{5}
+  \item [{$i$}]\begingroup inlet, ideal\nomeqref {24}\nompageref{5}
+  \item [{$o$}]\begingroup outlet\nomeqref {24}\nompageref{5}
+  \item [{$p$}]\begingroup piston\nomeqref {19}\nompageref{4}
+  \item [{$r$}]\begingroup regenerator\nomeqref {18}\nompageref{4}
+  \item [{cw}]\begingroup cooler wall\nomeqref {9}\nompageref{4}
+  \item [{hw}]\begingroup heater wall\nomeqref {8}\nompageref{4}
+
+\end{thenomenclature}
