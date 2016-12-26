@@ -72,9 +72,9 @@
 
  \nomgroup{S}
 
-  \item [{$c$}]\begingroup cooling fluid\nomeqref {25}\nompageref{5}
+  \item [{$c$}]\begingroup cooling fluid\nomeqref {25}\nompageref{7}
   \item [{$cw$}]\begingroup cooler wall\nomeqref {9}\nompageref{4}
-  \item [{$h$}]\begingroup heating fluid\nomeqref {25}\nompageref{5}
+  \item [{$h$}]\begingroup heating fluid\nomeqref {25}\nompageref{7}
   \item [{$hw$}]\begingroup heater wall\nomeqref {8}\nompageref{4}
   \item [{$i$}]\begingroup inlet\nomeqref {24}\nompageref{5}
   \item [{$o$}]\begingroup outlet\nomeqref {24}\nompageref{5}
