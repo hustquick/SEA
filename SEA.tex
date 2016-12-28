@@ -1,5 +1,5 @@
-\documentclass[preprint,5p, twocolumn]{elsarticle}
-\usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref,tabu}
+\documentclass[preprint,5p]{elsarticle}
+\usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref}
 \biboptions{numbers,sort&compress}
 \modulolinenumbers[5]
 \bibliographystyle{model3-num-names}
@@ -41,9 +41,7 @@
 \address[label2]{CIRCE Research Institute, University of Zaragoza, Maria de Luna, Zaragoza, Spain}
 
 \begin{abstract}
-The solar dish Stirling engine system is well known for its high light-to-electricity conversion efficiency. However, solar dish systems are not widely applied due to the limitation of dish collector size and Stirling engine size. This paper puts forward an effective way to overcome the limitation by using Stirling engine array (SEA) in the solar dish system to increase the power of Stirling engines. 
-%The performance of an SEA is affected by its connection type. 
-To find out the influence of connection type on the performance of SEA, five basic connection types were proposed and SEA analytical models were developed based on a proposed Stirling engine model. In the engine model, various losses and irreversibilities were analyzed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Based on the SEA models, global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
+The solar dish Stirling engine system is well known for its high light-to-electricity conversion efficiency. However, solar dish systems are not widely applied due to the limitation of dish collector size and Stirling engine size. This paper puts forward an effective way to overcome the limitation by using Stirling engine array (SEA) in the solar dish system to increase the power of Stirling engines. To find out the influence of connection type on the performance of SEA, five basic connection types were proposed and SEA analytical models were developed based on a proposed Stirling engine model. In the engine model, various losses and irreversibilities were analyzed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Based on the SEA models, global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
 \end{abstract}
 
 \begin{keyword}Stirling cycle, Stirling engine model, Stirling engine array, connection type
@@ -663,7 +661,7 @@ SEA models with specified parameters in Table~\ref{tab:parameters} were built an
 	\label{tab:result}
 \end{table}
 
-\subsection{Effectes of $T_{i,h}$}
+\subsection{Effects of $T_{i,h}$}
 According to Carnot cycle efficiency formula, the temperature of heating fluid determines the efficiency of Stirling engine array. For a Stirling engine, lower temperature heating fluid leads to a lower efficiency. The efficiency and output power may drop to 0 due to its insufficient heating fluid temperature to drive the engine.
 
 \noindent \begin{figure}[htbp]
@@ -741,6 +739,6 @@ We gratefully acknowledge the support of International S\&T Cooperation Program 
 \printnomenclature[1cm]{}
 \clearpage
 
-\bibliography{SEA}
+\bibliography{SEA.bib}
 
 \end{document}

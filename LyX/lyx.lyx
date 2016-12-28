@@ -217,6 +217,17 @@ Stirling cycle, Stirling engine model, Stirling engine array, connection
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/hustquick/Documents/file/文档编写/paper/SEA/SEA"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -250,9 +261,14 @@ The Stirling engine is widely used on solar dish system, known as dish-Stirling
 
 \begin_layout Standard
 This paper presents new arrangements for dish-Stirling system demonstrated
- in Figure~
-\backslash
-ref{fig:Dish_SEA} to solve the limitations.
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dish_SEA"
+
+\end_inset
+
+ to solve the limitations.
  Stirling engines are put on the ground as a Stirling engine array (SEA).
  Heat collected by multiple dish collectors, or other types of collectors,
  or combination of different types of collectors, even heat from different
@@ -262,6 +278,212 @@ ref{fig:Dish_SEA} to solve the limitations.
  They can be connected in a different connection type and their performance
  may be improved compared to the traditional arrangement in which they are
  put on the focal points of each dish collector separately.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/hustquick/Documents/file/文档编写/paper/SEA/graphics/Dish_SEA.pdf
+	width 70col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+sdf
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dish_SEA"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Great attention has focused on the application using parabolic dish to collect
+ heat.
+ Some researchers investigated the impact of various parameters on the optical
+ and thermal performance of the solar dish receivers using Monte Carlo Ray
+ Tracing Method (MCRTM) and/or numerical modeling methods 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cheng2013"
+
+\end_inset
+
+~
+\backslash
+cite{,Mao2014,Wang2010,Wang2013,Zhu2015,Sha2016,Daabo2016}.
+ Some researchers considered the applications with different ways to use
+ the collected heat.
+ Loni et al.~
+\backslash
+cite{Loni2016} considered a system using parabolic dish for an organic Rankine
+ cycle.
+ In the proposed system, thermal oil is used as the working fluid to transport
+ the collected heat for the organic Rankine cycle.
+ Wang et al.~
+\backslash
+cite{Wang2014} proposed an inverse design method for a cavity receiver used
+ in solar dish Brayton system.
+ Craig et al.~
+\backslash
+cite{Craig2016} evaluated a parabolic dish tubular receiver used in a dish
+ Brayton cycle.
+ An approach for incorporating a complex geometry like a tubular receiver
+ generated using CFD software into SolTrace was developed.
+ Aichmayer et al.~
+\backslash
+cite{Aichmayer2015} presented a hybrid solar micro gas-turbine system integratin
+g volumetric solar dish receiver.
+ Concerning the solar dish receiver integration, both pressurized and atmospheri
+c configurations have been considered.
+ Lovegrove et al.~
+\backslash
+cite{Lovegrove2004} presented an idea of using parabolic dish array to provide
+ heat for ammonia based thermochemical energy storage.
+ In this regard, using parabolic dishes to provide heat for SEA is applicable.
+\end_layout
+
+\begin_layout Standard
+A large number of studies have been done on Stirling engine analysis.
+ To describe a Stirling engine's behavior precisely is a difficult task
+ due to the various losses and irreversibilities in the engine.
+\end_layout
+
+\begin_layout Standard
+Researchers have done a lot of work to build a precise Stirling engine model.
+ Different models of Stirling engines were developed using empirical~
+\backslash
+cite{Senft1998,Costea1999,Prieto2003,Organ2013,Kongtragool2005,Thombare2008},
+ analytical~
+\backslash
+cite{Ohtomo1995,Rogdakis2004,Kongtragool2006,Puech2011,Formosa2010,Shazly2014,Cu
+llen2011,Ahmadi2013,Ahmadi2013b,Tursunbaev2007} and numerical methods~
+\backslash
+cite{Urieli1984,Ni2016,Jia2016,Strauss2010,Abbas2014,Araoz2015,Babaelahi2015,Bar
+reto2017,Wu1998,Li2011,Hosseinzade2015}.
+\end_layout
+
+\begin_layout Standard
+Among these methods, numerical methods obtain the most accurate models.
+ Urieli and Berchowitz~
+\backslash
+cite{Urieli1984} proposed an adiabatic model of Stirling engine considering
+ some irreversible effects such as non-ideal heat transfer processes and
+ pressure drop effect using numerical methods.
+ The model is known as Simple model.
+ Many researchers developed more accurate models based on the Simple model
+ by using alternative methods or including more loss mechanisms.
+ Ni et al.~
+\backslash
+cite{Ni2016} proposed an improved Simple analytical model which considers
+ the influence mechanism of rotary speed, pressure and working gas in the
+ view of heat/power losses for Stirling engine performance.
+ Jia et al.~
+\backslash
+cite{Jia2016} developed a numerical model of free-piston engine generator.
+ The dynamic equations have been linearized to simplify the model to a one-degre
+e forced vibration system with various damping.
+ The solving time of the proposed fast response model can be significantly
+ reduced comparing to previous numerical models.
+ Strauss and Dobson~
+\backslash
+cite{Strauss2010} proposed an alternative method to calculate the regeneration
+ heat loss and pumping losses, which is more suitable for preliminary engine
+ design and optimisation, known as Simple II model.
+ Abbas~
+\backslash
+cite{Abbas2014} considered the effects of non-ideal regeneration, shuttle
+ loss and heat conduction losses based on Simple model.
+ Araoz et al.~
+\backslash
+cite{Araoz2015} developed a rigorous Stirling engine model with adiabatic
+ working spaces, isothermal heat exchangers.
+ It considers dead volumes, and imperfect regeneration, mechanical pumping
+ losses due to friction, limited heat transfer and thermal losses on the
+ heat exchangers.
+ The model is suitable for different engine configurations ($
+\backslash
+alpha$, $
+\backslash
+beta$ and $
+\backslash
+gamma$ engines).
+ Babaelahi and Syyaadi~
+\backslash
+cite{Babaelahi2015} proposed a new numerical thermal model based on polytropic
+ expansion/compression processes.
+ Differential equations in the expansion/compression processes were modified
+ to polytropic processes in the new model.
+ New model shows a better performance prediction compared with previous
+ models.
+\end_layout
+
+\begin_layout Standard
+With the development of finite-time thermodynamics, many researchers studied
+ the the finite-time thermodynamic performance of the Stirling engine.
+ This analysis can also be used in the case of irreversible machines further
+ considering the internal irreversibilities of a Stirling engine such as
+ friction, pressure drop and entropy generation~
+\backslash
+cite{Barreto2017}.
+ Wu et al.~
+\backslash
+cite{Wu1998} developed a numerical model considering finite-time effect
+ to find out the relationship between the net power output and thermal efficienc
+y of the engine.
+ Li et al.~
+\backslash
+cite{Li2011} developed a mathematical model of a high temperature differential
+ dish-Stirling system with finite-time thermodynamics.
+ Finite-rate heat transfer, regenerative heat losses, conductive thermal
+ bridging losses and finite regeneration processes of the Stirling engine
+ were considered in the model.
+ Hosseinzade~
+\backslash
+cite{Hosseinzade2015} presented a new closed-form thermal model for the
+ thermal simulation of Stirling engines based on the combination of polytropic
+ analysis of expansion/compression processes and the concept of finite speed
+ thermodynamics.
+ Instead of finite-time method, Ahmadi et al.~
+\backslash
+cite{Ahmadi2016b} proposed a finite-speed thermodynamic analysis based on
+ the first law of thermodynamics for a closed system with finite speed and
+ the direct method.
+ The effects of heat source temperature, regenerating effectiveness, volumetric
+ ratio, piston stroke as well as rotational speed are included in the analysis.
+ Chen et al.~
+\backslash
+cite{Chen2007} developed a heat-engine cycle model using finite-time thermodynam
+ics.
+ The model, considered the losses due to heat-resistance, heat leaks and
+ internal irreversibility, is applicable for generalized irreversible universal
+ steady-flow heat-engine cycles.
 \end_layout
 
 \end_body
