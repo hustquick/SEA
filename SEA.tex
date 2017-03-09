@@ -1,4 +1,4 @@
-\documentclass[preprint,5p]{elsarticle}
+\documentclass[review,5p,10t]{elsarticle}
 \usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref}
 \biboptions{numbers,sort&compress}
 \modulolinenumbers[5]
@@ -21,14 +21,14 @@
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
 
 \makeindex
-\journal{Applied Energy}
+\journal{Applied Thermal Engineering}
 \begin{document}
 
 \begin{frontmatter}
-\title{Performance comparison of new and traditional arrangements of a dish-Stirling system}
+\title{Performance comparison of new arrangements of a dish-Stirling system}
 \date{}
 \author[label1]{Cheng Zhang}
-\author[label1]{Ycxanping Zhang\corref{cor1}}
+\author[label1]{Yanping Zhang\corref{cor1}}
 \ead{zyp2817@hust.edu.cn}
 \author[label2]{Inmaculada Arauzo}
 \author[label1]{Wei Gao}
@@ -41,7 +41,7 @@
 \address[label2]{CIRCE Research Institute, University of Zaragoza, Maria de Luna, Zaragoza, Spain}
 
 \begin{abstract}
-The solar dish Stirling engine system is well known for its high light-to-electricity conversion efficiency. However, solar dish systems are not widely applied due to the limitation of dish collector size and Stirling engine size. This paper puts forward an effective way to overcome the limitation by using Stirling engine array (SEA) in the solar dish system to increase the power of Stirling engines. To find out the influence of connection type on the performance of SEA, five basic connection types were proposed and SEA analytical models were developed based on a proposed Stirling engine model. In the engine model, various losses and irreversibilities were analyzed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Based on the SEA models, global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
+The solar dish Stirling engine system is well known for its high light-to-electricity conversion efficiency. However, it is not widely deployed due to its existing drawbacks. This paper puts forward an effective way to overcome the drawbacks by using Stirling engine array (SEA) in new arrangements of the solar dish system. The SEA has multiple connection types. To find out the influence of connection type on the performance of SEA, five basic connection types were proposed and SEA analytical models were developed based on a proposed Stirling engine model. In the engine model, various losses and irreversibilities were analyzed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Based on the SEA models, global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
 \end{abstract}
 
 \begin{keyword}Stirling cycle, Stirling engine model, Stirling engine array, connection type
@@ -55,18 +55,24 @@ The solar dish Stirling engine system is well known for its high light-to-electr
 %The Stirling engine was invented in 1816, however, its practical use was largely confined to low power domestic applications for over a century due to its small capacity~\cite{Formosa2010}. 
 With the emphasis on energy and environmental impact, recently gaining attention is focused on Stirling engine for its high efficiency, low maintenance requirement, flexibility on energy sources, no pollution, low explosion risk. Due to its closed cycle, it can use almost any heat source, which makes it compatible with alternative and renewable energy sources. 
 
-The Stirling engine is widely used on solar dish system, known as dish-Stirling system. In a traditional dish-Stirling system, each Stirling engines is put on the focus of a parabolic dish to use the heat collected by the dish receiver for power generation. However, solar dish systems are not widely applied yet for its small capacity. Its capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it overlaps part of the collector.
+The Stirling engine is widely used on solar dish system, known as dish-Stirling system. In a traditional dish-Stirling system, each Stirling engines is put on the focus of a parabolic dish to use the heat collected by the dish receiver for power generation. However, dish-Stirling system has not received wide commercial deployment yet for their drawbacks. First, it is a solar-only generation system, without storage or simple hybridization. Compared with photovoltaics, which is also a solar-only generation system, dish Stirling could not compete in terms of reliability nor cost per unit of energy produced. Second, the Stirling engine capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it overlaps part of the collector.
 
-This paper presents new arrangements for dish-Stirling system demonstrated in Figure~\ref{fig:Dish_SEA} to solve the limitations. In this figure, Stirling engines are put on the ground as a Stirling engine array (SEA). Heat collected by multiple dish collectors
+This paper presents new arrangements for dish-Stirling system demonstrated in Figure~\ref{fig:Dish_SEA} to overcome the drawbacks. In this figure, Stirling engines are put on the ground as a Stirling engine array (SEA). Heat collected by multiple dish collectors
 %, or other types of collectors, or combination of different types of collectors, even heat from different heat sources
- is supplied to the SEA by heating fluid. Since the engines are static installations on the ground where space and weight are not at a premium any more, they can reach higher capacities. They can be connected in a different connection type and their performance may be improved compared to the traditional arrangement in which they are put on the focal points of each dish collector separately.
+ is supplied to the SEA by heating fluid. A heat storage system becomes feasible. Heat provided to the SEA may be provided by other types of collectors, combination of different types of collectors, or different kinds of heat sources. On the other hand, since the engines are static installations on the ground where space and weight are not at a premium any more, they can reach higher capacities.
+
+%Compared to the traditional arrangement, in which the Stirling engines are put on the focal points of each dish collector separately, 
+
+In the proposed arrangement, Stirling engines can be connected in different connection types, and their performance is relative with their connection type.
+
+%The Stirling engines can be connected in a different connection type and their performance may be improved compared to the traditional arrangement in which they are put on the focal points of each dish collector separately.
 
 %The Stirling engine is widely used on solar dish system, in which it is put on the focus of parabolic dish to use the heat collected by the dish receiver for power generation. However, solar dish systems are not widely applied yet for its small capacity. Its capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it will overlap part of the collector. This paper presents a solution demonstrated in Figure~\ref{fig:Dish_SEA}. Heat collected by multiple dish collectors, or other types of collectors, or combination of different types of collectors, even heat from different heat sources can be used for a Stirling engine array (SEA). Stirling engines are put on the ground as static installations where space and weight are not at a premium any more. The engines can reach higher capacities, they can be connected in a different connection type and their performance may be improved.
 \nomenclature[C]{SEA}{Stirling engine array}
 
 \noindent \begin{figure}[htbp]
 \begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/Dish_SEA}
+	\includegraphics[width = 0.7\columnwidth]{./graphics/Dish_SEA.pdf}
 	\caption{New arrangement of dish-Stirling system}
 	\label{fig:Dish_SEA}
 \end{center}
@@ -76,7 +82,12 @@ Great attention has focused on the application using parabolic dish to collect h
 
 A large number of studies have been done on Stirling engine analysis. To describe a Stirling engine's behavior precisely is a difficult task due to the various losses and irreversibilities in the engine.
 %Recent investigations~\cite{Tlili2006,Li2016} have found that these losses and irreversibilities in the thermodynamic cycle have significant importance in predicting the performance of Stirling engines. 
-Researchers have done a lot of work to build a precise Stirling engine model. Different models of Stirling engines were developed using empirical~\cite{Senft1998,Costea1999,Prieto2003,Organ2013,Kongtragool2005,Thombare2008,Lombardi2010}, analytical~\cite{Ohtomo1995,Wang2002,Rogdakis2004,Kongtragool2006,Puech2011,Formosa2010,Shazly2014,Cullen2011,Cheng2012,Ahmadi2013,Ahmadi2013b,Tursunbaev2007} and numerical methods~\cite{Urieli1984,Ni2016,Jia2016,Strauss2010,Abbas2014,Araoz2015,Babaelahi2015,Barreto2017,Wu1998,Li2011,Hosseinzade2015}.
+Researchers have done a lot of work to build a precise Stirling engine model. Different models of Stirling engines were developed using empirical%~\cite{Senft1998,Costea1999,Prieto2003,Organ2013,Kongtragool2005,Thombare2008,Lombardi2010}
+, analytical
+%~\cite{Ohtomo1995,Wang2002,Rogdakis2004,Kongtragool2006,Puech2011,Formosa2010,Shazly2014,Cullen2011,Cheng2012,Ahmadi2013,Ahmadi2013b,Tursunbaev2007}
+ and numerical methods
+%~\cite{Urieli1984,Ni2016,Jia2016,Strauss2010,Abbas2014,Araoz2015,Babaelahi2015,Barreto2017,Wu1998,Li2011,Hosseinzade2015}
+ .
 
 Among these methods, numerical methods obtain the most accurate models. Urieli and Berchowitz~\cite{Urieli1984} proposed an adiabatic model of Stirling engine considering some irreversible effects such as non-ideal heat transfer processes and pressure drop effect using numerical methods. The model is known as Simple model. Many researchers developed more accurate models based on the Simple model by using alternative methods or including more loss mechanisms. 
 Ni et al.~\cite{Ni2016} proposed an improved Simple analytical model which considers the influence mechanism of rotary speed, pressure and working gas in the view of heat/power losses for Stirling engine performance.
@@ -96,7 +107,8 @@ Chen et al.~\cite{Chen2007} developed a heat-engine cycle model using finite-tim
 
 %Thombare~\cite{Thombare2008} presented a detailed review of the past methods and techniques used for engine analysis. Analysis of heat transfer phenomenon in the engine was also included in the review. Formosa~\cite{Formosa2010} developed an analytical model to predict the periodic steady operation under isothermal assumption and simplified heat transfer model. The model was validated using the experimental data of the General Motor GPU-3 Stirling engine prototype. Ohtomo~\cite{Ohtomo1995} proposed a simple graphic vector analysis method for the first-order estimation of the theoretical performance of Stirling engine with Schmidt assumption and, for simplicity, approximates all volume and pressure fluctuations as sinusoidal. Rogdakis~\cite{Rogdakis2004} used a linearization technique of the dynamic balance equations to predict the thermodynamic conditions for stable operation of free piston Stirling engines. Costea~\cite{Costea1999} considered the effects of both internal and external irreversibilities of the cycle. According to his research, the real cycle efficiency is approximately half the ideal cycle efficiency when the engine is operated at the optimum temperature. Araoz~\cite{Araoz2015} investigated the possible causes that limited the performance of a Stirling engine. Based on a second order Stirling engine model developed and validated previously, he implemented an analysis with the integration of thermodynamics, and the thermal and mechanical interactions of kinematic Stirling engines. Wu~\cite{Wu1998} built a model of Stirling engine with heat transfer and imperfect regeneration irreversibilities and derived the relationship between net power output and thermal efficiency by the model. Puech~\cite{Puech2011} and Kongtragool~\cite{Kongtragool2006} considered the influence of dead volume and imperfect regeneration on Stirling engine. An isothermal model was used to analyze the net work and the heat stored in the regenerator during a complete cycle. An analytical expression to estimate the improvement due to the regenerator has been proposed including the combined effects of dead volume and imperfect regeneration.  Formosa~\cite{Formosa2011} developed and validated an analytical thermodynamic model which encompasses the effectiveness and the flaws of the heat exchangers and the regenerator. 
 
-On the other side of the researches, multi-objective optimization algorithms were used considering multi-variables to obtain a better performance was paid for attention by numbers of researchers recently~\cite{Ahmadi2016,Li2016b,Patel2016,Luo2016}.
+On the other side of the researches, multi-objective optimization algorithms were used considering multi-variables to obtain a better performance was paid for attention by numbers of researchers recently%~\cite{Ahmadi2016,Li2016b,Patel2016,Luo2016}
+.
 Ahmadi et al.~\cite{Ahmadi2016} performed the thermodynamic analysis of solar dish Stirling engine based on the finite-time thermodynamics. Then the NSGA-II algorithm was applied. Three objectives, thermal efficiency, entransy loss rate and power output, were set as the objectives and three well known decision making methods have been employed in the algorithm.
 Li et al.~\cite{Li2016b} developed a multi-objective optimization model of a solar energy powered gamma type Stirling engine using Finite Physical Dimensions Thermodynamics (FPDT) method by multi-objective criteria. Genetic algorithm was used to get the Pareto frontier, and optimum points were obtained using the decision different making methods. Results show that total thermal conductance, hot temperature, stroke and diameter ratios can be improved.
 Patel and Savsani~\cite{Patel2016} developed a strategy for multi-objective optimization for Stirling engines using TS-TLBO (tutorial training and self learning inspired teaching-learning-based optimization) algorithm. An application example with eleven decision variables and three objectives are considered. 
@@ -105,7 +117,7 @@ Luo et al.~\cite{Luo2016} proposed a multiple optimization method that combines 
 
 %There are multiple connection types for Stirling engines in an SEA, and the connection type will change the heating and cooling fluid properties, such as flow rate and temperature, of each Stirling engine in an SEA, which can affect the efficiency of each Stirling engine. So the same Stirling engines with the same heating and cooling fluid may produce different amount of work with different thermal efficiencies depending on their connection types.
 
-However, the literature review indicates that the analysis of arrangements of Stirling engines, classification and performance of the SEA, has not been reported till now. In this regard, this paper investigated the connection types of SEA and its influence on SEA performance. Connection types of SEA were classified and five basic connection types were put forward. According to Organ's theory~\cite{Organ1997}, one equivalent analytical Stirling engine model always exists for different types ($\alpha$ type, $\beta$ type and $\gamma$ type) of engines. To find out the influence of connection type of SEA and to avoid falling into the problem of developing specific Stirling engine model, a Stirling engine model based on some assumptions and simplifications was developed. This model was evaluated using experimental data of the General Motor GPU-3 Stirling engine prototype. Imperfect regeneration and some irreversibilities were considered. Heat transfer analysis of Stirling engine with heating and cooling fluids was also included. SEA models of different connection types were built depending on the engine model. Impacts of different parameters on the performance of these models were analyzed.
+However, the literature review indicates that the analysis of arrangements of Stirling engines, classification and performance of the SEA, has not been reported till now. In this regard, this paper investigated the connection types of SEA and its influence on SEA performance. According to Organ's theory~\cite{Organ1997}, one equivalent analytical Stirling engine model always exists for different types ($\alpha$ type, $\beta$ type and $\gamma$ type) of engines. To find out the influence of connection type of SEA and to avoid falling into the problem of developing specific Stirling engine model, a Stirling engine model based on some assumptions and simplifications was developed. This model was evaluated using experimental data of the General Motor GPU-3 Stirling engine prototype. Imperfect regeneration and some irreversibilities were considered. Heat transfer analysis of Stirling engine with heating and cooling fluids was also included. SEA models of different connection types were built depending on the engine model. Impacts of different parameters on the performance of these models were analyzed.
 
 \section{Connection types of SEA~\label{sec:connectionTypes}}
 For a single Stirling engine, the heat transfer processes between fluids and engine are independent and irrelevant with the direction of the flows, which means the efficiency and power are not affected by the direction of fluids. However, for an SEA, the connection type will affect the temperature profiles through the array and the specific work production, both of which will determine the efficiency and power of the SEA. It is practically significant to investigate the influence of connection type of an SEA on its performance. Using parallel flow, on the one hand, will reduce the flow rate of the fluid, which will reduce the power of each engine; however, on the other hand, will take the advantage of higher inlet heating fluid temperature (or lower inlet cooling fluid temperature), which may increase the power of each engine. friend who is Using serial flow, on the one hand, will increase the flow rate of the fluid, which will increase the power of each engine; however, on the other hand, the inlet heating fluid temperature reduces with the flow direction (or the inlet cooling fluid temperature increases with the flow direction), which leads to lower engine power along the flow direction. Using the same order will lead to largest fluid temperature difference (temperature difference of the heating and cooling fluids) at the first engines and smallest fluid temperature difference at the last engines. Using the reverse order will lead to more averaged fluid temperature differences of the engines. For a heat exchanger, the reverse order (counterflow), which leads to a smaller fluid temperature difference, has a better heat transfer effect for its lower exergy loss. However, for a Stirling engine, the smaller fluid temperature difference leads to lower performance due to the lower temperature difference of the working gas in the hot space and cold space. To find out the influence of connection types on the performance of SEA, it is essential to classify the connection types.
@@ -425,11 +437,11 @@ Evaluation of the developed thermal model was performed by considering the GPU-3
 
 
 \begin{table*}[htbp]\footnotesize
-	\caption{Thermal efficiency of the proposed Stirling engine model, previous thermal models and experimental data(at $T_{hw}=922\,\mathrm{K}$ and $T_{cw}=288\,\mathrm{K}$)}
+	\caption{Thermal efficiency of the proposed model, previous thermal models and experimental data(at $T_{hw}=922\,\mathrm{K}$ and $T_{cw}=288\,\mathrm{K}$)}
 	\begin{center}
 	\begin{tabular}{cccccccccccc}
 		\toprule
-		\multirow{7}{0.5in}{\tabincell{l}{Rotation\\speed\\(Hz)}}	&	\multirow{7}{0.5in}{Mean effective pressure (MPa)}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Thermal efficiency predicted by the simple analysis (variable Pr~\cite{Urieli1984})}}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Thermal efficiency predicted by the adiabatic analysis (simple II~\cite{Strauss2010})}}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Thermal efficiency predicted by the proposed Stirling Engine model}}	&	\multirow{4}{*}{\tabincell{l}{Experimental\\efficiency~\cite{Babaelahi2015}}}\\
+		\multirow{7}{0.5in}{\tabincell{l}{Rotation\\speed\\(Hz)}}	&	\multirow{7}{0.5in}{Mean effective pressure (MPa)}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Thermal efficiency predicted by the simple analysis (variable Pr~\cite{Urieli1984})}}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Thermal efficiency predicted by the adiabatic analysis (simple II~\cite{Strauss2010})}}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Thermal efficiency predicted by the proposed Stirling Engine model}}	&	\multirow{4}{*}{\tabincell{l}{Experimental\\efficiency~\cite{Babaelahi2015}}}\\
 		\\
 		\\
 		\\
@@ -464,11 +476,11 @@ Evaluation of the developed thermal model was performed by considering the GPU-3
 \end{table*}
 
 \begin{table*}[htbp]\footnotesize
-	\caption{Output power of the proposed Stirling engine model, previous thermal models and experimental data(at $T_{hw}=922\,\mathrm{K}$ and $T_{cw}=288\,\mathrm{K}$)}
+	\caption{Output power of the proposed model, previous thermal models and experimental data(at $T_{hw}=922\,\mathrm{K}$ and $T_{cw}=288\,\mathrm{K}$)}
 	\begin{center}
 	\begin{tabular}{cccccccccccc}
 		\toprule
-		\multirow{7}{0.5in}{\tabincell{l}{Rotation\\speed\\(Hz)}}	&	\multirow{7}{0.5in}{Mean effective pressure (MPa)}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Output power predicted by the simple analysis (variable Pr~\cite{Urieli1984})}}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Output power predicted by the adiabatic analysis (simple II~\cite{Strauss2010})}}	&	\multicolumn{3}{l}{\multirow{1}{1.0in}{Output power predicted by the proposed Stirling Engine model}}	&	\multirow{4}{*}{\tabincell{l}{Experimental\\output\\power\\(kW)~\cite{Babaelahi2015}}}\\
+		\multirow{7}{0.5in}{\tabincell{l}{Rotation\\speed\\(Hz)}}	&	\multirow{7}{0.5in}{Mean effective pressure (MPa)}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Output power predicted by the simple analysis (variable Pr~\cite{Urieli1984})}}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Output power predicted by the adiabatic analysis (simple II~\cite{Strauss2010})}}	&	\multicolumn{3}{c}{\multirow{1}{1.0in}{Output power predicted by the proposed Stirling Engine model}}	&	\multirow{4}{*}{\tabincell{l}{Experimental\\output\\power\\(kW)~\cite{Babaelahi2015}}}\\
 		\\
 		\\
 		\\
@@ -628,15 +640,15 @@ In an SEA, there are 2 flows as shown in Figure~\ref{fig:SEA}. In a serial flow,
 
 MATLAB was used as the programming tool to build the model of SEAs, and CoolProp was used to provide fluid properties for MATLAB program. Five basic SEA models composed of the aforementioned Stirling engines and fluids were built. To compare SEA connection types under various conditions, several parameters are investigated to find out their effects on SEA performance.
 
-\noindent \begin{figure*}[htbp]
-\begin{center}
-	\includegraphics[width = 1.8\columnwidth]{./graphics/FlowChart}
-	\caption{Flowcharts of the SEA model for performance analysis of the SEAs}
-	\label{fig:Flowchart}
-\end{center}
-\end{figure*}
-
-Figure~\ref{fig:Flowchart} shows the solution algorithm of the SEA model. Flowchart (a) shows the algorithm to solve a Stirling engine known inlet parameters of the fluids. Flowchart (b) shows the algorithm to solve a Stirling engine known inlet parameters of heating fluid and outlet parameters of cooling fluid. Flowchart (c) shows the algorithm to solve the SEA model iteratively depending on different connection types. The levenberg-marquardt algorithm is applied to numerically solve the non-linear equations in the flowcharts.
+%\noindent \begin{figure*}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.8\columnwidth]{./graphics/FlowChart}
+%	\caption{Flowcharts of the SEA model for performance analysis of the SEAs}
+%	\label{fig:Flowchart}
+%\end{center}
+%\end{figure*}
+%
+%Figure~\ref{fig:Flowchart} shows the solution algorithm of the SEA model. Flowchart (a) shows the algorithm to solve a Stirling engine known inlet parameters of the fluids. Flowchart (b) shows the algorithm to solve a Stirling engine known inlet parameters of heating fluid and outlet parameters of cooling fluid. Flowchart (c) shows the algorithm to solve the SEA model iteratively depending on different connection types. The levenberg-marquardt algorithm is applied to numerically solve the non-linear equations in the flowcharts.
 
 \section{Result Analysis}
 %The objective of this study is to investigate SEA performance difference of different connection types. Therefore, 
@@ -723,7 +735,7 @@ For a certain connection type, increase $n_{se}$ will reduce the efficiency of S
 
 \section{Conclusion}
 
-A new way to overcome the limitation of small engine capacity in dish-Stirling system by using SEA was proposed in this paper. Connection type may change the flow rates and temperatures of the fluids, as a result the performance of the SEA will be different depending on the connection schemes. In order to compare performance of SEAs with different connections, five basic connection types of SEA were summed up according to flow type and flow order. 
+A new way to overcome the drawbacks of traditional dish-Stirling system by using SEA was proposed in this paper. Connection type of the engines may change the flow rates and temperatures of the fluids, as a result the performance of the SEA will be different depending on the connection schemes. In order to compare performance of SEAs with different connections, five basic connection types of SEA were summed up according to flow type and flow order. 
 
 Analytical Stirling engine model was created to develop the SEA models for the investigation of influence of connection types. Imperfect regeneration and cycle irreversibility of Stirling engine cycle and heat exchange process between fluids and engine were considered in the model. Algorithm to numerically solve different connection types of SEA was developed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Result shows that the proposed model predicted the performance with higher accuracy than Simple model~\cite{Urieli1984} and Simple II model~\cite{Strauss2010}. 
 
