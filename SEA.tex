@@ -1,7 +1,7 @@
-\documentclass[review,5p,10t]{elsarticle}
+\documentclass[review,3p,10t]{elsarticle}
 \usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref}
 \biboptions{numbers,sort&compress}
-\modulolinenumbers[5]
+\modulolinenumbers[100]
 \bibliographystyle{model3-num-names}
 %\usepackage[figure]{hypcap}
 \makenomenclature
@@ -92,7 +92,7 @@ Researchers have done a lot of work to build a precise Stirling engine model. Di
 Among these methods, numerical methods obtain the most accurate models. Urieli and Berchowitz~\cite{Urieli1984} proposed an adiabatic model of Stirling engine considering some irreversible effects such as non-ideal heat transfer processes and pressure drop effect using numerical methods. The model is known as Simple model. Many researchers developed more accurate models based on the Simple model by using alternative methods or including more loss mechanisms. 
 Ni et al.~\cite{Ni2016} proposed an improved Simple analytical model which considers the influence mechanism of rotary speed, pressure and working gas in the view of heat/power losses for Stirling engine performance.
 Jia et al.~\cite{Jia2016} developed a numerical model of free-piston engine generator. The dynamic equations have been linearized to simplify the model to a one-degree forced vibration system with various damping. The solving time of the proposed fast response model can be significantly reduced comparing to previous numerical models.
-Strauss and Dobson~\cite{Strauss2010} proposed an alternative method to calculate the regeneration heat loss and pumping losses, which is more suitable for preliminary engine design and optimisation, known as Simple II model.
+Strauss and Dobson~\cite{Strauss2010} proposed an alternative method to calculate the regeneration heat loss and pumping losses, which is more suitable for preliminary engine design and optimization, known as Simple II model.
 Abbas~\cite{Abbas2014} considered the effects of non-ideal regeneration, shuttle loss and heat conduction losses based on Simple model. 
 Araoz et al.~\cite{Araoz2015} developed a rigorous Stirling engine model with adiabatic working spaces, isothermal heat exchangers. It considers dead volumes, and imperfect regeneration, mechanical pumping losses due to friction, limited heat transfer and thermal losses on the heat exchangers. The model is suitable for different engine configurations ($\alpha$, $\beta$ and $\gamma$ engines).
 Babaelahi and Syyaadi~\cite{Babaelahi2015} proposed a new numerical thermal model based on polytropic expansion/compression processes. Differential equations in the expansion/compression processes were modified to polytropic processes in the new model. New model shows a better performance prediction compared with previous models.
@@ -221,7 +221,7 @@ For the isochoric heating process 3'-3, the absorbed heat
 \nomenclature{$c_v$}{specific heat at constant volume (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)}
 \nomenclature{$k$}{specific heat ratio ($c_p/c_v$), thermal conductivity ($\mathrm{W\cdot m^{-1}\cdot K^{-1}}$)}
 
-For the the isothermal expansion process 3-4, the absorbed heat
+For the isothermal expansion process 3-4, the absorbed heat
 
 \begin{equation}
 	Q_{34} = W_{34} = mRT_H\ln\gamma_H
@@ -270,12 +270,12 @@ In a cycle, the theoretical absorbed heat
 %It can be found from Equation~\ref{Eq:eta} and~\ref{Eq:P} that 
 %given the properties of a Stirling engine, its efficiency and power can be obtained by known $T_H$ and $T_L$.
 
-\subsubsection{Irrevisibilities and losses}
+\subsubsection{Irreversibilities and losses}
 
 \begin{enumerate}[a.]
 \item Non-ideal heat transfer effect
 
-Because of non-ideal heater and cooler, the working fluid temperature ($T_{H}$/$T_L$) in these two heat exchangers is less/higher than the wall temperature ($T_{hw}$/$T_{cw}$), respectively. And $T_{H}$ and $T_{L}$ can be corrected by the wall temperatures as follows:
+Because of non-ideal heater and cooler, the working fluid temperature ($T_{H}$, $T_L$) in these two heat exchangers is less/higher than the wall temperature ($T_{hw}$, $T_{cw}$), respectively. And $T_{H}$ and $T_{L}$ can be corrected by the wall temperatures as follows:
 
 \begin{equation}
 	T_H = T_{hw} - \frac{Qs_{se}}{h_hA_{hw}}
@@ -514,11 +514,11 @@ Evaluation of the developed thermal model was performed by considering the GPU-3
 	\label{tab:PowerComparison}
 \end{table*}
 
-It can be found that the proposed model has much better agreement with the experimental results than previous thermal models at various rotation speeds and mean effective pressures. It is required to mention that in all thermal models both power $W$ and input heat $Q$ were determined by the thermal process of heat transfer between the wall and working gas. In the proposed model, $W$ and $Q$ are obtained by Equation~\ref{eq:T_H} and~\ref{eq:T_L}. Therefore all the three parameters $W$, $Q$ and $\eta$ are determined by the thermal model and input parameters to the model. These input parameters includes heater, cooler, mean effective pressure, type of working gas and geometrical specification of the engine.
+It can be found that the proposed model has much better agreement with the experimental results than previous thermal models at various rotation speeds and mean effective pressures. It is required to mention that in all thermal models both power $W$ and input heat $Q$ were determined by the thermal process of heat transfer between the wall and working gas. In the proposed model, $W$ and $Q$ are obtained by Equation~\ref{eq:T_H} and~\ref{eq:T_L}. Therefore, all the three parameters $W$, $Q$ and $\eta$ are determined by the thermal model and input parameters to the model. These input parameters include heater, cooler, mean effective pressure, type of working gas and geometrical specification of the engine.
 
 Table~\ref{tab:EfficiencyComparison} and~\ref{tab:PowerComparison} indicate that when mean effective pressure of the engine increases from $2.76\,\mathrm{MPa}$ to $6.90\,\mathrm{MPa}$, best performance (efficiency and power) prediction of the proposed model exists. When rotation speed increases from $16.67\,\mathrm{Hz}$ to $58.33\,\mathrm{Hz}$, error in prediction of performance of the proposed model increases. The proposed model may have the best performance prediction at a low rotation speed, with mean effective pressure between $4.14\,\mathrm{MPa}$ and $5.52\,\mathrm{MPa}$.
 
-However, there is still some discrepancy between the the simulation results of proposed model and the experimental data. In the future researches, more accurate models of Stirling engine may be developed by considering other irreversibilities such as heat loss to the environment, gas spring hysteresis, and etc. It is worth pointing that there are more accurate Stirling engine models. For example, polytropic simulation models of Stirling engine show higher accuracy than our proposed model~\cite{Hosseinzade2015, Babaelahi2015}. However, the model needs more costly calculations and the polytropic indexes are engine-specific.
+However, there is still some discrepancy between the simulation results of proposed model and the experimental data. In the future researches, more accurate models of Stirling engine may be developed by considering other irreversibilities such as heat loss to the environment, gas spring hysteresis, and etc. It is worth pointing that there are more accurate Stirling engine models. For example, polytropic simulation models of Stirling engine show higher accuracy than our proposed model~\cite{Hosseinzade2015, Babaelahi2015}. However, the model needs more costly calculations and the polytropic indexes are engine-specific.
 
 \subsection{Heat transfer between the engine and the fluids}
 
@@ -685,10 +685,10 @@ According to Carnot cycle efficiency formula, the temperature of heating fluid d
 \end{figure}
 
 Curves of performance of SEAs and $T_{i,h}$ are shown in Figure~\ref{fig:Ti_h}.
-As it is shown, with the increase of $T_{i,h}$, both $\eta$ and $P$ increase for all SEAs. For some types of SEA, when $T_{i,h}$ is lower than a critical temperature, some of the engines in the SEA will not work and there will be turning points on the $\eta-T_{i,h}$, $P-T_{i,h}$ curves. E.g. for SEA of Type 1, when $T_{i,h}$ is lower 820\,K, all the engines stop working, turning points at 820\,K can be found on the $\eta-T_{i,h}$, $P-T_{i,h}$ curves in Figure~\ref{fig:Ti_h}. 
+As it is shown, with the increase of $T_{i,h}$, both $\eta$ and $P$ increase for all SEAs. For some types of SEA, when $T_{i,h}$ is lower than a critical temperature, some of the engines in the SEA will not work and there will be turning points on the $\eta-T_{i,h}$, $P-T_{i,h}$ curves. For example, in SEA of Type 1, when $T_{i,h}$ is lower 820\,K, all the engines stop working, turning points at 820\,K can be found on the $\eta-T_{i,h}$, $P-T_{i,h}$ curves in Figure~\ref{fig:Ti_h}. 
 %Multiple turning points on one curve means different engines in the SEA stop working from different temperatures.
 
-From curves in Figure~\ref{fig:Ti_h}, it can be concluded that Type 2 and Type 3 have the best performance, and Type 2 has the best adaptability for lower $T_{i,h}$. All engines in Type 2 begin to work at 730\,K.
+From curves in Figure~\ref{fig:Ti_h}, it can be concluded that Type 2 and Type 3 have the best performance, and Type 2 has the best adaptability for lower $T_{i,h}$. All engines in Type 2 work at 730\,K.
 
 \subsection{Effects of $q_mc_p$}
 
@@ -731,7 +731,7 @@ By varying the number of engines in SEA, the performance levels changed accordin
 
 For Type 1, when $n_{se} \geqslant 10$, all engines stop working for given heating and cooling fluids due to small $q_mc_p$. For Type 2 and Type 3, every engine in the SEAs works, by increasing $n_{se}$, $\eta$ reduces due to smaller temperature difference of the fluids, and $P$ increases due to more operating engines. For Type 4, by checking results, it can be found that when $n_{se} = 13$,  the last engine doesn't work; when $n_{se} = 14$, only the first 10 engines will work; when $n_{se} = 15$, the working engine number drops to 9. For Type 5, by checking results, it can be found that when $n_{se} = 12$, the last 2 engines stop working; when $n_{se} = 13$, only the first 8 engines will work; when $n_{se} = 14$, the working engine number drops to 6; when $n_{se} = 15$, the working engine number drops to 4.
 
-For a certain connection type, increase $n_{se}$ will reduce the efficiency of SEA. For some connection types, increase $n_{se}$ will reduce the output power $P$ due to inoperative engines and smaller output power engines. Thus it is important to choose the number of engines for some connection types of SEA. 
+For a certain connection type, increase $n_{se}$ will reduce the efficiency of SEA. For some connection types, increase $n_{se}$ will reduce the output power $P$ due to inoperative engines and smaller output power engines. It is important to choose the number of engines for some connection types of SEA. 
 
 \section{Conclusion}
 
