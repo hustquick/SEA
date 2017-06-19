@@ -1,0 +1,259 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\eprint}[1]{\href{http://arxiv.org/abs/#1}{\path{#1}}}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\BIBand}{and}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Loni et~al.(2016)Loni, Kasaeian, Asli-Ardeh, Ghobadian and
+  Roux}]{Loni2016}
+\bibinfo{author}{Loni\xfnm[ R.]}, \bibinfo{author}{Kasaeian\xfnm[ A.]},
+  \bibinfo{author}{Asli-Ardeh\xfnm[ E.A.]}, \bibinfo{author}{Ghobadian\xfnm[
+  B.]}, \bibinfo{author}{Roux\xfnm[ W.L.]}.
+\newblock \bibinfo{title}{Performance study of a solar-assisted organic rankine
+  cycle using a dish-mounted rectangular-cavity tubular solar receiver}.
+\newblock \bibinfo{journal}{Applied Thermal Engineering}
+  \bibinfo{year}{2016};\bibinfo{volume}{108}:\bibinfo{pages}{1298 -- 1309}.
+%Type = Article
+\bibitem[{Wang et~al.(2014)Wang, Xu, Laumert and Strand}]{Wang2014}
+\bibinfo{author}{Wang\xfnm[ W.]}, \bibinfo{author}{Xu\xfnm[ H.]},
+  \bibinfo{author}{Laumert\xfnm[ B.]}, \bibinfo{author}{Strand\xfnm[ T.]}.
+\newblock \bibinfo{title}{An inverse design method for a cavity receiver used
+  in solar dish brayton system}.
+\newblock \bibinfo{journal}{Solar Energy}
+  \bibinfo{year}{2014};\bibinfo{volume}{110}:\bibinfo{pages}{745 -- 755}.
+%Type = Article
+\bibitem[{Craig et~al.(2016)Craig, Marsberg and Meyer}]{Craig2016}
+\bibinfo{author}{Craig\xfnm[ K.J.]}, \bibinfo{author}{Marsberg\xfnm[ J.]},
+  \bibinfo{author}{Meyer\xfnm[ J.P.]}.
+\newblock \bibinfo{title}{Combining ray tracing and cfd in the thermal analysis
+  of a parabolic dish tubular cavity receiver}.
+\newblock \bibinfo{journal}{AIP Conference Proceedings}
+  \bibinfo{year}{2016};\bibinfo{volume}{1734}(\bibinfo{number}{1}):\bibinfo{eid}{030009}.
+%Type = Article
+\bibitem[{Aichmayer et~al.(2015)Aichmayer, Spelling and
+  Laumert}]{Aichmayer2015}
+\bibinfo{author}{Aichmayer\xfnm[ L.]}, \bibinfo{author}{Spelling\xfnm[ J.]},
+  \bibinfo{author}{Laumert\xfnm[ B.]}.
+\newblock \bibinfo{title}{Preliminary design and analysis of a novel solar
+  receiver for a micro gas-turbine based solar dish system}.
+\newblock \bibinfo{journal}{Solar Energy}
+  \bibinfo{year}{2015};\bibinfo{volume}{114}:\bibinfo{pages}{378 -- 396}.
+%Type = Article
+\bibitem[{Lovegrove et~al.(2004)Lovegrove, Luzzi, Soldiani and
+  Kreetz}]{Lovegrove2004}
+\bibinfo{author}{Lovegrove\xfnm[ K.]}, \bibinfo{author}{Luzzi\xfnm[ A.]},
+  \bibinfo{author}{Soldiani\xfnm[ I.]}, \bibinfo{author}{Kreetz\xfnm[ H.]}.
+\newblock \bibinfo{title}{Developing ammonia based thermochemical energy
+  storage for dish power plants}.
+\newblock \bibinfo{journal}{Solar Energy}
+  \bibinfo{year}{2004};\bibinfo{volume}{76}(\bibinfo{number}{1--3}):\bibinfo{pages}{331
+  -- 337}.
+%Type = Book
+\bibitem[{Urieli and Berchowitz(1984)}]{Urieli1984}
+\bibinfo{author}{Urieli\xfnm[ I.]}, \bibinfo{author}{Berchowitz\xfnm[ D.M.]}.
+\newblock \bibinfo{title}{Stirling cycle engine analysis}.
+\newblock \bibinfo{address}{Bristol}: \bibinfo{publisher}{A. Hilger};
+  \bibinfo{year}{1984}.
+%Type = Article
+\bibitem[{Ni et~al.(2016)Ni, Shi, Xiao, Peng, Sultan, Wang et~al.}]{Ni2016}
+\bibinfo{author}{Ni\xfnm[ M.]}, \bibinfo{author}{Shi\xfnm[ B.]},
+  \bibinfo{author}{Xiao\xfnm[ G.]}, \bibinfo{author}{Peng\xfnm[ H.]},
+  \bibinfo{author}{Sultan\xfnm[ U.]}, \bibinfo{author}{Wang\xfnm[ S.]}, et~al.
+\newblock \bibinfo{title}{Improved simple analytical model and experimental
+  study of a 100 w beta-type stirling engine}.
+\newblock \bibinfo{journal}{Applied Energy}
+  \bibinfo{year}{2016};\bibinfo{volume}{169}:\bibinfo{pages}{768 -- 787}.
+%Type = Article
+\bibitem[{Jia et~al.(2016)Jia, Smallbone, Feng, Tian, Zuo and
+  Roskilly}]{Jia2016}
+\bibinfo{author}{Jia\xfnm[ B.]}, \bibinfo{author}{Smallbone\xfnm[ A.]},
+  \bibinfo{author}{Feng\xfnm[ H.]}, \bibinfo{author}{Tian\xfnm[ G.]},
+  \bibinfo{author}{Zuo\xfnm[ Z.]}, \bibinfo{author}{Roskilly\xfnm[ A.]}.
+\newblock \bibinfo{title}{A fast response free-piston engine generator
+  numerical model for control applications}.
+\newblock \bibinfo{journal}{Applied Energy}
+  \bibinfo{year}{2016};\bibinfo{volume}{162}:\bibinfo{pages}{321 -- 329}.
+%Type = Article
+\bibitem[{Strauss and Dobson(2010)}]{Strauss2010}
+\bibinfo{author}{Strauss\xfnm[ J.M.]}, \bibinfo{author}{Dobson\xfnm[ R.T.]}.
+\newblock \bibinfo{title}{Evaluation of a second order simulation for sterling
+  engine design and optimisation}.
+\newblock \bibinfo{journal}{Journal of Energy in Southern Africa}
+  \bibinfo{year}{2010};\bibinfo{volume}{21}(\bibinfo{number}{2}):\bibinfo{pages}{17--29}.
+%Type = Article
+\bibitem[{Abbas(2014)}]{Abbas2014}
+\bibinfo{author}{Abbas\xfnm[ M.]}.
+\newblock \bibinfo{title}{Thermal analysis of stirling engine solar driven}.
+\newblock \bibinfo{journal}{Cder Dz}
+  \bibinfo{year}{2014};\bibinfo{volume}{70}(\bibinfo{number}{3}):\bibinfo{pages}{503--514}.
+%Type = Article
+\bibitem[{Araoz et~al.(2015)Araoz, Salomon, Alejo and Fransson}]{Araoz2015}
+\bibinfo{author}{Araoz\xfnm[ J.A.]}, \bibinfo{author}{Salomon\xfnm[ M.]},
+  \bibinfo{author}{Alejo\xfnm[ L.]}, \bibinfo{author}{Fransson\xfnm[ T.H.]}.
+\newblock \bibinfo{title}{Numerical simulation for the design analysis of
+  kinematic stirling engines}.
+\newblock \bibinfo{journal}{Applied Energy}
+  \bibinfo{year}{2015};\bibinfo{volume}{159}:\bibinfo{pages}{633 -- 650}.
+%Type = Article
+\bibitem[{Babaelahi and Sayyaadi(2015)}]{Babaelahi2015}
+\bibinfo{author}{Babaelahi\xfnm[ M.]}, \bibinfo{author}{Sayyaadi\xfnm[ H.]}.
+\newblock \bibinfo{title}{A new thermal model based on polytropic numerical
+  simulation of stirling engines}.
+\newblock \bibinfo{journal}{Applied Energy}
+  \bibinfo{year}{2015};\bibinfo{volume}{141}:\bibinfo{pages}{143 -- 159}.
+%Type = Article
+\bibitem[{Barreto and Canhoto(2017)}]{Barreto2017}
+\bibinfo{author}{Barreto\xfnm[ G.]}, \bibinfo{author}{Canhoto\xfnm[ P.]}.
+\newblock \bibinfo{title}{Modelling of a stirling engine with parabolic dish
+  for thermal to electric conversion of solar energy}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2017};\bibinfo{volume}{132}:\bibinfo{pages}{119 -- 135}.
+%Type = Article
+\bibitem[{Wu et~al.(1998)Wu, Chen, Wu and Sun}]{Wu1998}
+\bibinfo{author}{Wu\xfnm[ F.]}, \bibinfo{author}{Chen\xfnm[ L.]},
+  \bibinfo{author}{Wu\xfnm[ C.]}, \bibinfo{author}{Sun\xfnm[ F.]}.
+\newblock \bibinfo{title}{Optimum performance of irreversible stirling engine
+  with imperfect regeneration}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{1998};\bibinfo{volume}{39}(\bibinfo{number}{8}):\bibinfo{pages}{727
+  -- 732}.
+%Type = Article
+\bibitem[{Yaqi et~al.(2011)Yaqi, Yaling and Weiwei}]{Li2011}
+\bibinfo{author}{Yaqi\xfnm[ L.]}, \bibinfo{author}{Yaling\xfnm[ H.]},
+  \bibinfo{author}{Weiwei\xfnm[ W.]}.
+\newblock \bibinfo{title}{Optimization of solar-powered stirling heat engine
+  with finite-time thermodynamics}.
+\newblock \bibinfo{journal}{Renewable Energy}
+  \bibinfo{year}{2011};\bibinfo{volume}{36}(\bibinfo{number}{1}):\bibinfo{pages}{421
+  -- 427}.
+%Type = Article
+\bibitem[{Hosseinzade et~al.(2015)Hosseinzade, Sayyaadi and
+  Babaelahi}]{Hosseinzade2015}
+\bibinfo{author}{Hosseinzade\xfnm[ H.]}, \bibinfo{author}{Sayyaadi\xfnm[ H.]},
+  \bibinfo{author}{Babaelahi\xfnm[ M.]}.
+\newblock \bibinfo{title}{A new closed-form analytical thermal model for
+  simulating stirling engines based on polytropic-finite speed thermodynamics}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2015};\bibinfo{volume}{90}:\bibinfo{pages}{395 -- 408}.
+%Type = Article
+\bibitem[{Ahmadi et~al.(2016{\natexlab{a}})Ahmadi, Ahmadi, Pourfayaz, Bidi,
+  Hosseinzade and Feidt}]{Ahmadi2016b}
+\bibinfo{author}{Ahmadi\xfnm[ M.H.]}, \bibinfo{author}{Ahmadi\xfnm[ M.A.]},
+  \bibinfo{author}{Pourfayaz\xfnm[ F.]}, \bibinfo{author}{Bidi\xfnm[ M.]},
+  \bibinfo{author}{Hosseinzade\xfnm[ H.]}, \bibinfo{author}{Feidt\xfnm[ M.]}.
+\newblock \bibinfo{title}{Optimization of powered stirling heat engine with
+  finite speed thermodynamics}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2016}{\natexlab{a}};\bibinfo{volume}{108}:\bibinfo{pages}{96
+  -- 105}.
+%Type = Article
+\bibitem[{Chen et~al.(2007)Chen, Zhang and Sun}]{Chen2007}
+\bibinfo{author}{Chen\xfnm[ L.]}, \bibinfo{author}{Zhang\xfnm[ W.]},
+  \bibinfo{author}{Sun\xfnm[ F.]}.
+\newblock \bibinfo{title}{Power, efficiency, entropy-generation rate and
+  ecological optimization for a class of generalized irreversible universal
+  heat-engine cycles}.
+\newblock \bibinfo{journal}{Applied Energy}
+  \bibinfo{year}{2007};\bibinfo{volume}{84}(\bibinfo{number}{5}):\bibinfo{pages}{512
+  -- 525}.
+%Type = Article
+\bibitem[{Ahmadi et~al.(2016{\natexlab{b}})Ahmadi, Ahmadi, Mellit, Pourfayaz
+  and Feidt}]{Ahmadi2016}
+\bibinfo{author}{Ahmadi\xfnm[ M.H.]}, \bibinfo{author}{Ahmadi\xfnm[ M.A.]},
+  \bibinfo{author}{Mellit\xfnm[ A.]}, \bibinfo{author}{Pourfayaz\xfnm[ F.]},
+  \bibinfo{author}{Feidt\xfnm[ M.]}.
+\newblock \bibinfo{title}{Thermodynamic analysis and multi objective
+  optimization of performance of solar dish stirling engine by the centrality
+  of entransy and entropy generation}.
+\newblock \bibinfo{journal}{International Journal of Electrical Power \& Energy
+  Systems}
+  \bibinfo{year}{2016}{\natexlab{b}};\bibinfo{volume}{78}:\bibinfo{pages}{88 --
+  95}.
+%Type = Article
+\bibitem[{Li et~al.(2016)Li, Grosu and Queiros-Conde}]{Li2016b}
+\bibinfo{author}{Li\xfnm[ R.]}, \bibinfo{author}{Grosu\xfnm[ L.]},
+  \bibinfo{author}{Queiros-Conde\xfnm[ D.]}.
+\newblock \bibinfo{title}{Multi-objective optimization of stirling engine using
+  finite physical dimensions thermodynamics (fpdt) method}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2016};\bibinfo{volume}{124}:\bibinfo{pages}{517 -- 527}.
+%Type = Article
+\bibitem[{Patel and Savsani(2016)}]{Patel2016}
+\bibinfo{author}{Patel\xfnm[ V.]}, \bibinfo{author}{Savsani\xfnm[ V.]}.
+\newblock \bibinfo{title}{Multi-objective optimization of a stirling heat
+  engine using ts-tlbo (tutorial training and self learning inspired
+  teaching-learning based optimization) algorithm}.
+\newblock \bibinfo{journal}{Energy}
+  \bibinfo{year}{2016};\bibinfo{volume}{95}:\bibinfo{pages}{528 -- 541}.
+%Type = Article
+\bibitem[{Luo et~al.(2016)Luo, Sultan, Ni, Peng, Shi and Xiao}]{Luo2016}
+\bibinfo{author}{Luo\xfnm[ Z.]}, \bibinfo{author}{Sultan\xfnm[ U.]},
+  \bibinfo{author}{Ni\xfnm[ M.]}, \bibinfo{author}{Peng\xfnm[ H.]},
+  \bibinfo{author}{Shi\xfnm[ B.]}, \bibinfo{author}{Xiao\xfnm[ G.]}.
+\newblock \bibinfo{title}{Multi-objective optimization for gpu3 stirling engine
+  by combining multi-objective algorithms}.
+\newblock \bibinfo{journal}{Renewable Energy}
+  \bibinfo{year}{2016};\bibinfo{volume}{94}:\bibinfo{pages}{114 -- 125}.
+%Type = Article
+\bibitem[{Organ(1997)}]{Organ1997}
+\bibinfo{author}{Organ\xfnm[ A.J.]}.
+\newblock \bibinfo{title}{The regenerator and the stirling engine}.
+\newblock \bibinfo{journal}{Mechanical Engineering Publications Limited}
+  \bibinfo{year}{1997};.
+%Type = Article
+\bibitem[{Formosa and Despesse(2010)}]{Formosa2010}
+\bibinfo{author}{Formosa\xfnm[ F.]}, \bibinfo{author}{Despesse\xfnm[ G.]}.
+\newblock \bibinfo{title}{{Analytical model for Stirling cycle machine
+  design}}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2010};\bibinfo{volume}{51}(\bibinfo{number}{10}):\bibinfo{pages}{1855--1863}.
+%Type = Article
+\bibitem[{Duan et~al.(2014)Duan, Wang, Shu, Jing and Chang}]{Duan2014}
+\bibinfo{author}{Duan\xfnm[ C.]}, \bibinfo{author}{Wang\xfnm[ X.]},
+  \bibinfo{author}{Shu\xfnm[ S.]}, \bibinfo{author}{Jing\xfnm[ C.]},
+  \bibinfo{author}{Chang\xfnm[ H.]}.
+\newblock \bibinfo{title}{Thermodynamic design of stirling engine using
+  multi-objective particle swarm optimization algorithm}.
+\newblock \bibinfo{journal}{Energy Conversion $\&$ Management}
+  \bibinfo{year}{2014};\bibinfo{volume}{84}:\bibinfo{pages}{88--96}.
+%Type = Book
+\bibitem[{Heywood and JohnB(1988)}]{Heywood1988}
+\bibinfo{author}{Heywood\xfnm[]}, \bibinfo{author}{JohnB\xfnm[]}.
+\newblock \bibinfo{title}{Internal combustion engine fundamentals}.
+\newblock \bibinfo{publisher}{McGraw-Hill}; \bibinfo{year}{1988}.
+%Type = Article
+\bibitem[{Timoumi et~al.(2008)Timoumi, Tlili and Nasrallah}]{Timoumi2008}
+\bibinfo{author}{Timoumi\xfnm[ Y.]}, \bibinfo{author}{Tlili\xfnm[ I.]},
+  \bibinfo{author}{Nasrallah\xfnm[ S.B.]}.
+\newblock \bibinfo{title}{Design and performance optimization of gpu-3 stirling
+  engines}.
+\newblock \bibinfo{journal}{Energy}
+  \bibinfo{year}{2008};\bibinfo{volume}{33}(\bibinfo{number}{7}):\bibinfo{pages}{1100
+  -- 1114}.
+%Type = Techreport
+\bibitem[{MARTINI(1983)}]{Martini1983}
+\bibinfo{author}{MARTINI\xfnm[ W.R.]}.
+\newblock \bibinfo{title}{Stirling engine design manual, 2nd edition}.
+\newblock \bibinfo{type}{Tech. Rep.}; Martini Engineering, Richland, WA (USA);
+  \bibinfo{year}{1983}.
+%Type = Article
+\bibitem[{Hooshang et~al.(2016)Hooshang, Moghadam and
+  AlizadehNia}]{Hooshang2016}
+\bibinfo{author}{Hooshang\xfnm[ M.]}, \bibinfo{author}{Moghadam\xfnm[ R.A.]},
+  \bibinfo{author}{AlizadehNia\xfnm[ S.]}.
+\newblock \bibinfo{title}{Dynamic response simulation and experiment for
+  gamma-type stirling engine}.
+\newblock \bibinfo{journal}{Renewable Energy}
+  \bibinfo{year}{2016};\bibinfo{volume}{86}:\bibinfo{pages}{192 -- 205}.
+
+\end{thebibliography}

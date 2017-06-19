@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SEA.aux
+The style file: model3-num-names.bst
+Database file #1: SEA.bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 29 entries,
+            3138 wiz_defined-function locations,
+            862 strings with 10754 characters,
+and the built_in function-call counts, 24930 in all, are:
+= -- 1950
+> -- 747
+< -- 10
++ -- 399
+- -- 194
+* -- 2828
+:= -- 3166
+add.period$ -- 87
+call.type$ -- 29
+change.case$ -- 144
+chr.to.int$ -- 28
+cite$ -- 29
+duplicate$ -- 2113
+empty$ -- 2124
+format.name$ -- 289
+if$ -- 4926
+int.to.chr$ -- 2
+int.to.str$ -- 30
+missing$ -- 326
+newline$ -- 162
+num.names$ -- 87
+pop$ -- 616
+preamble$ -- 1
+purify$ -- 145
+quote$ -- 0
+skip$ -- 469
+stack$ -- 0
+substring$ -- 2161
+swap$ -- 1170
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 0
+while$ -- 109
+width$ -- 0
+write$ -- 419
