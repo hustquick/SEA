@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -13,6 +13,15 @@
 \providecommand{\BIBand}{and}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Zhang et~al.(2017)Zhang, Zhang, Arauzo, Gao and Zou}]{Zhang2017}
+\bibinfo{author}{Zhang\xfnm[ C.]}, \bibinfo{author}{Zhang\xfnm[ Y.]},
+  \bibinfo{author}{Arauzo\xfnm[ I.]}, \bibinfo{author}{Gao\xfnm[ W.]},
+  \bibinfo{author}{Zou\xfnm[ C.]}.
+\newblock \bibinfo{title}{Cascade system using both trough system and dish
+  system for power generation}.
+\newblock \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{year}{2017};\bibinfo{volume}{142}:\bibinfo{pages}{494 -- 503}.
 %Type = Article
 \bibitem[{Loni et~al.(2016)Loni, Kasaeian, Asli-Ardeh, Ghobadian and
   Roux}]{Loni2016}

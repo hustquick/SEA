@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: SEA.aux
+The top-level auxiliary file: /Users/zhangcheng/Personal/file/文档编写/paper/SEA/SEA.aux
 The style file: model3-num-names.bst
 Database file #1: SEA.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 29 entries,
+You've used 30 entries,
             3138 wiz_defined-function locations,
-            862 strings with 10754 characters,
-and the built_in function-call counts, 24930 in all, are:
-= -- 1950
-> -- 747
+            868 strings with 11050 characters,
+and the built_in function-call counts, 25999 in all, are:
+= -- 2035
+> -- 786
 < -- 10
-+ -- 399
-- -- 194
-* -- 2828
-:= -- 3166
-add.period$ -- 87
-call.type$ -- 29
-change.case$ -- 144
-chr.to.int$ -- 28
-cite$ -- 29
-duplicate$ -- 2113
-empty$ -- 2124
-format.name$ -- 289
-if$ -- 4926
++ -- 419
+- -- 204
+* -- 2952
+:= -- 3299
+add.period$ -- 90
+call.type$ -- 30
+change.case$ -- 149
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 2201
+empty$ -- 2212
+format.name$ -- 302
+if$ -- 5140
 int.to.chr$ -- 2
-int.to.str$ -- 30
-missing$ -- 326
-newline$ -- 162
-num.names$ -- 87
-pop$ -- 616
+int.to.str$ -- 31
+missing$ -- 339
+newline$ -- 167
+num.names$ -- 90
+pop$ -- 641
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 150
 quote$ -- 0
-skip$ -- 469
+skip$ -- 488
 stack$ -- 0
-substring$ -- 2161
-swap$ -- 1170
+substring$ -- 2264
+swap$ -- 1216
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
+type$ -- 176
 warning$ -- 0
-while$ -- 109
+while$ -- 113
 width$ -- 0
-write$ -- 419
+write$ -- 433

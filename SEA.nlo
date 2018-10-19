@@ -1,41 +1,41 @@
-\nomenclatureentry{CSEA@[{SEA}]\begingroup Stirling engine array\nomeqref {0}|nompageref}{4}
-\nomenclatureentry{a$e$@[{$e$}]\begingroup regenerator effectiveness\nomeqref {0}|nompageref}{7}
-\nomenclatureentry{a$T_R$@[{$T_R$}]\begingroup effective working fluid temperature in regenerator (K)\nomeqref {0}|nompageref}{7}
-\nomenclatureentry{a$T_L$@[{$T_L$}]\begingroup working fluid temperature in the cold space (K)\nomeqref {0}|nompageref}{7}
-\nomenclatureentry{a$T_H$@[{$T_H$}]\begingroup working fluid temperature in the hot space (K)\nomeqref {0}|nompageref}{7}
-\nomenclatureentry{a$V_D$@[{$V_D$}]\begingroup total dead volume (m$^3$)\nomeqref {0}|nompageref}{8}
-\nomenclatureentry{a$V_{DH}$@[{$V_{DH}$}]\begingroup hot space dead volume (m$^3$)\nomeqref {0}|nompageref}{8}
-\nomenclatureentry{a$V_{DR}$@[{$V_{DR}$}]\begingroup regenerator dead volume (m$^3$)\nomeqref {0}|nompageref}{8}
-\nomenclatureentry{a$V_{DC}$@[{$V_{DC}$}]\begingroup cold space dead volume (m$^3$)\nomeqref {0}|nompageref}{8}
-\nomenclatureentry{a$K$@[{$K$}]\begingroup dead volume factor\nomeqref {1}|nompageref}{8}
-\nomenclatureentry{a$V_E$@[{$V_E$}]\begingroup expansion volume (m$^3$)\nomeqref {2}|nompageref}{8}
-\nomenclatureentry{a$V_C$@[{$V_C$}]\begingroup compression volume (m$^3$)\nomeqref {2}|nompageref}{8}
-\nomenclatureentry{a$m$@[{$m$}]\begingroup mass of working fluid in Stirling engine (kg)\nomeqref {2}|nompageref}{8}
-\nomenclatureentry{a$R$@[{$R$}]\begingroup gas constant (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {2}|nompageref}{8}
-\nomenclatureentry{G$\gamma_H$@[{$\gamma_H$}]\begingroup space ratio in process 12\nomeqref {3}|nompageref}{8}
-\nomenclatureentry{G$\gamma_L$@[{$\gamma_L$}]\begingroup space ratio in process 34\nomeqref {3}|nompageref}{8}
-\nomenclatureentry{a$W$@[{$W$}]\begingroup output work (J)\nomeqref {4}|nompageref}{8}
-\nomenclatureentry{S$th$@[{$th$}]\begingroup theoretical\nomeqref {4}|nompageref}{8}
-\nomenclatureentry{a$c_v$@[{$c_v$}]\begingroup specific heat at constant volume (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {5}|nompageref}{8}
-\nomenclatureentry{a$k$@[{$k$}]\begingroup specific heat ratio ($c_p/c_v$), thermal conductivity ($\mathrm{W\cdot m^{-1}\cdot K^{-1}}$)\nomeqref {5}|nompageref}{8}
-\nomenclatureentry{a$Q$@[{$Q$}]\begingroup absorbed heat (J)\nomeqref {7}|nompageref}{8}
-\nomenclatureentry{a$P$@[{$P$}]\begingroup power of Stirling engine (W)\nomeqref {7}|nompageref}{8}
-\nomenclatureentry{a$s_{se}$@[{$s_{se}$}]\begingroup speed of Stirling engine (Hz)\nomeqref {7}|nompageref}{8}
-\nomenclatureentry{S$hw$@[{$hw$}]\begingroup heater wall\nomeqref {8}|nompageref}{9}
-\nomenclatureentry{S$cw$@[{$cw$}]\begingroup cooler wall\nomeqref {9}|nompageref}{9}
-\nomenclatureentry{G$\mu$@[{$\mu$}]\begingroup dynamic viscosity ($\mathrm{kg\cdot m^{-1}\cdot s^{-1}}$)\nomeqref {10}|nompageref}{9}
-\nomenclatureentry{a$p$@[{$p$}]\begingroup pressure (Pa)\nomeqref {12}|nompageref}{9}
-\nomenclatureentry{S$r$@[{$r$}]\begingroup regenerator\nomeqref {18}|nompageref}{10}
+\nomenclatureentry{CSEA@[{SEA}]\begingroup Stirling engine array\nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$e$@[{$e$}]\begingroup regenerator effectiveness\nomeqref {0}|nompageref}{8}
+\nomenclatureentry{a$T_R$@[{$T_R$}]\begingroup effective working fluid temperature in regenerator (K)\nomeqref {0}|nompageref}{8}
+\nomenclatureentry{a$T_L$@[{$T_L$}]\begingroup working fluid temperature in the cold space (K)\nomeqref {0}|nompageref}{8}
+\nomenclatureentry{a$T_H$@[{$T_H$}]\begingroup working fluid temperature in the hot space (K)\nomeqref {0}|nompageref}{8}
+\nomenclatureentry{a$V_D$@[{$V_D$}]\begingroup total dead volume (m$^3$)\nomeqref {0}|nompageref}{9}
+\nomenclatureentry{a$V_{DH}$@[{$V_{DH}$}]\begingroup hot space dead volume (m$^3$)\nomeqref {0}|nompageref}{9}
+\nomenclatureentry{a$V_{DR}$@[{$V_{DR}$}]\begingroup regenerator dead volume (m$^3$)\nomeqref {0}|nompageref}{9}
+\nomenclatureentry{a$V_{DC}$@[{$V_{DC}$}]\begingroup cold space dead volume (m$^3$)\nomeqref {0}|nompageref}{9}
+\nomenclatureentry{a$K$@[{$K$}]\begingroup dead volume factor\nomeqref {1}|nompageref}{9}
+\nomenclatureentry{a$V_E$@[{$V_E$}]\begingroup expansion volume (m$^3$)\nomeqref {2}|nompageref}{9}
+\nomenclatureentry{a$V_C$@[{$V_C$}]\begingroup compression volume (m$^3$)\nomeqref {2}|nompageref}{9}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup mass of working fluid in Stirling engine (kg)\nomeqref {2}|nompageref}{9}
+\nomenclatureentry{a$R$@[{$R$}]\begingroup gas constant (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {2}|nompageref}{9}
+\nomenclatureentry{G$\gamma_H$@[{$\gamma_H$}]\begingroup space ratio in process 12\nomeqref {3}|nompageref}{9}
+\nomenclatureentry{G$\gamma_L$@[{$\gamma_L$}]\begingroup space ratio in process 34\nomeqref {3}|nompageref}{9}
+\nomenclatureentry{a$W$@[{$W$}]\begingroup output work (J)\nomeqref {4}|nompageref}{9}
+\nomenclatureentry{S$th$@[{$th$}]\begingroup theoretical\nomeqref {4}|nompageref}{9}
+\nomenclatureentry{a$c_v$@[{$c_v$}]\begingroup specific heat at constant volume (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {5}|nompageref}{9}
+\nomenclatureentry{a$k$@[{$k$}]\begingroup specific heat ratio ($c_p/c_v$), thermal conductivity ($\mathrm{W\cdot m^{-1}\cdot K^{-1}}$)\nomeqref {5}|nompageref}{9}
+\nomenclatureentry{a$Q$@[{$Q$}]\begingroup absorbed heat (J)\nomeqref {7}|nompageref}{9}
+\nomenclatureentry{a$P$@[{$P$}]\begingroup power of Stirling engine (W)\nomeqref {7}|nompageref}{9}
+\nomenclatureentry{a$s_{se}$@[{$s_{se}$}]\begingroup speed of Stirling engine (Hz)\nomeqref {7}|nompageref}{9}
+\nomenclatureentry{S$hw$@[{$hw$}]\begingroup heater wall\nomeqref {8}|nompageref}{10}
+\nomenclatureentry{S$cw$@[{$cw$}]\begingroup cooler wall\nomeqref {9}|nompageref}{10}
+\nomenclatureentry{G$\mu$@[{$\mu$}]\begingroup dynamic viscosity ($\mathrm{kg\cdot m^{-1}\cdot s^{-1}}$)\nomeqref {10}|nompageref}{10}
+\nomenclatureentry{a$p$@[{$p$}]\begingroup pressure (Pa)\nomeqref {12}|nompageref}{10}
+\nomenclatureentry{S$r$@[{$r$}]\begingroup regenerator\nomeqref {18}|nompageref}{11}
 \nomenclatureentry{a$Z$@[{$Z$}]\begingroup displacer stroke (m)\nomeqref {19}|nompageref}{11}
 \nomenclatureentry{a$J$@[{$J$}]\begingroup annular gap cylinder displacer (m)\nomeqref {19}|nompageref}{11}
 \nomenclatureentry{S$p$@[{$p$}]\begingroup piston\nomeqref {19}|nompageref}{11}
-\nomenclatureentry{a$q_m$@[{$q_m$}]\begingroup mass flow rate (kg$\cdot$s$^{-1}$)\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{a$c_p$@[{$c_p$}]\begingroup specific heat at constant pressure (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{a$T_w$@[{$T_w$}]\begingroup wall temperature (K)\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{a$U$@[{$U$}]\begingroup overall heat transfer coefficient (W$\cdot$m$^{-2}\cdot$K$^{-1}$)\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{a$A$@[{$A$}]\begingroup heat transfer area (m$^2$)\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{S$i$@[{$i$}]\begingroup inlet\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{S$o$@[{$o$}]\begingroup outlet\nomeqref {24}|nompageref}{15}
-\nomenclatureentry{S$h$@[{$h$}]\begingroup heating fluid\nomeqref {25}|nompageref}{15}
-\nomenclatureentry{S$c$@[{$c$}]\begingroup cooling fluid\nomeqref {25}|nompageref}{15}
-\nomenclatureentry{a$n_{se}$@[{$n_{se}$}]\begingroup number of Stirling engine in SEA\nomeqref {29}|nompageref}{16}
+\nomenclatureentry{a$q_m$@[{$q_m$}]\begingroup mass flow rate (kg$\cdot$s$^{-1}$)\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{a$c_p$@[{$c_p$}]\begingroup specific heat at constant pressure (J$\cdot$kg$^{-1}\cdot$K$^{-1}$)\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{a$T_w$@[{$T_w$}]\begingroup wall temperature (K)\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{a$U$@[{$U$}]\begingroup overall heat transfer coefficient (W$\cdot$m$^{-2}\cdot$K$^{-1}$)\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{a$A$@[{$A$}]\begingroup heat transfer area (m$^2$)\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{S$i$@[{$i$}]\begingroup inlet\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{S$o$@[{$o$}]\begingroup outlet\nomeqref {24}|nompageref}{16}
+\nomenclatureentry{S$h$@[{$h$}]\begingroup heating fluid\nomeqref {25}|nompageref}{16}
+\nomenclatureentry{S$c$@[{$c$}]\begingroup cooling fluid\nomeqref {25}|nompageref}{16}
+\nomenclatureentry{a$n_{se}$@[{$n_{se}$}]\begingroup number of Stirling engine in SEA\nomeqref {29}|nompageref}{17}

@@ -1,5 +1,5 @@
 \documentclass[review,3p,10t]{elsarticle}
-\usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref}
+\usepackage{amsmath,amssymb,ifthen,booktabs,color,float,nomencl,lineno,multirow,hyperref,gnuplottex}
 \biboptions{numbers,sort&compress}
 \modulolinenumbers[100]
 \bibliographystyle{model3-num-names}
@@ -21,11 +21,11 @@
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
 
 \makeindex
-\journal{Applied Thermal Engineering}
+\journal{Energy Conversion and Management}
 \begin{document}
 
 \begin{frontmatter}
-\title{Configuration optimization of Stirling engine array in a cascade system}
+\title{Configuration optimization of Stirling engine array in a cascade solar system}
 \date{}
 \author[label1]{Cheng Zhang}
 \author[label1]{Yanping Zhang\corref{cor1}}
@@ -41,7 +41,7 @@
 \address[label2]{CIRCE Research Institute, University of Zaragoza, Maria de Luna, Zaragoza, Spain}
 
 \begin{abstract}
-The solar dish Stirling engine system is well known for its high light-to-electricity conversion efficiency. This paper puts forward a new layout scheme of the solar dish system by using Stirling engine array (SEA). The SEA has multiple connection types. To find out the influence of connection type on the performance of SEA, five basic connection types were proposed. A Stirling engine model considering various losses and irreversibilities were developed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. SEA models were developed based on the Stirling engine model. Global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
+Cascade solar thermal systems provide a new direction for solar power generation. This paper focuses on the configuration optimization of a cascade solar system in which a Stirling engine array (SEA) is applied. The SEA has multiple configurations. To find out the influence of the configuration on the performance of SEA, five basic connection types were proposed. A Stirling engine model considering various losses and irreversibilities were developed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. SEA models were developed based on the Stirling engine model. Global efficiency and power of different connection types of SEAs with the same hot and cold flows were evaluated. Effects of different factors on the performance of SEA were considered. Result shows that flow order has little influence on the SEA performance, and serial flows connection type is the best for an SEA to obtain best performance and adaptability for given heating and cooling fluids.
 \end{abstract}
 
 \begin{keyword}Stirling cycle, Stirling engine model, Stirling engine array, connection type
@@ -53,9 +53,32 @@ The solar dish Stirling engine system is well known for its high light-to-electr
 
 \section{Introduction}
 %The Stirling engine was invented in 1816, however, its practical use was largely confined to low power domestic applications for over a century due to its small capacity~\cite{Formosa2010}. 
-With the emphasis on energy and environmental impact, recently gaining attention is focused on Stirling engine for its high efficiency, low maintenance requirement, flexibility on energy sources, no pollution, low explosion risk. Due to its closed cycle, it can use almost any heat source, which makes it compatible with alternative and renewable energy sources. The Stirling engine is widely used on solar dish system, known as dish-Stirling system. In a traditional dish-Stirling system, each Stirling engines is put on the focus of a parabolic dish to use the heat collected by the dish receiver for power generation. 
+%With the emphasis on energy and environmental impact, recently gaining attention is focused on Stirling engine for its high efficiency, low maintenance requirement, flexibility on energy sources, no pollution, low explosion risk. Due to its closed cycle, it can use almost any heat source, which makes it compatible with alternative and renewable energy sources. The Stirling engine is widely used on solar dish system, known as dish-Stirling system. In a traditional dish-Stirling system, each Stirling engines is put on the focus of a parabolic dish to use the heat collected by the dish receiver for power generation. 
 
-Great attention has focused on the application using parabolic dish to collect heat. Some researchers investigated the impact of various parameters on the optical and thermal performance of the solar dish receivers using Monte Carlo Ray Tracing Method (MCRTM) and/or numerical modeling methods.%~\cite{Cheng2013,Mao2014,Wang2010,Wang2013,Zhu2015,Sha2016,Daabo2016}. 
+With the emphasis on energy and environmental impact, solar energy, which has the advantages of widely distribution, huge amount, inexhaustible and no pollution, has received much attention by many countries and been regarded as the best potential candidate of the fossil energy. Concentrating solar thermal power generation is another form of power generation technology except solar photovoltaic power generation. %Concentrating solar power (CSP) system uses mirrors to converge sunlight onto a receiver that absorbs the solar energy and transfer it to a heat transfer fluid (HTF) such as a synthetic oil, molten salt or air. The HTF then directly or indirectly used as the heat source in a power cycle.
+Compared to solar photovoltaic, solar thermal power is gaining more attention for its advantages as higher energy density, smooth power generation, good grid compatibility, easy to integrate with existing fossil power plant. There are three types of concentrating solar power (CSP) technologies being commercially applied: parabolic trough, parabolic dish and power tower. Among the three solar thermal power technologies, parabolic trough is the most mature and commercially deployed technology. However, it has a low concentration ratio, the receiver's temperature is relatively low, the solar-to-electric efficiency is relatively low. Parabolic dish can obtain high temperature thermal energy, its solar-to-electric efficiency is higher than parabolic trough.
+Besides, one advantage of parabolic dish is that it requires much less water for power generation. However, solar parabolic dish is not a large-scale application, it's mainly applied for distributed power generation for its compact structure and easy installation. Solar power tower has a very high concentration ratio when more heliostats are used, the receiver's temperature can be very high and it can be applied for large-scale application. However, it has some disadvantages such as high investment and high system complexity. %It is currently in rapid development stage.
+
+It is very important to find out a way to utilize the advantages of existing solar thermal power technologies and overcome their disadvantages. In other words, to find out a new technology with higher efficiency and lower cost is urgent.
+
+\noindent \begin{figure}[htbp]
+\begin{center}
+	\includegraphics[width = 0.9\columnwidth]{./graphics/CascadeSystem.pdf}
+	\caption{A cascade system using both trough system and dish system}
+	\label{fig:CascadeSystem}
+\end{center}
+\end{figure}
+
+Zhang et al.~\cite{Zhang2017} proposed a novel solar thermal cascade system using both parabolic trough system and parabolic dish system as described in Figure~\ref{fig:CascadeSystem}. This cascade system has several features. First, it uses multiple types of collectors. Trough collectors are applied for lower temperature heat collection and dish collectors are applied for higher temperature heat collection. This helps to reduce the cost and improve the efficiency. Second, it uses multiple types of thermodynamic cycles. Rankine cycle is applied for lower temperature heat utilization. Stirling cycle is applied for higher temperature heat utilization. Third, an air-water heat exchanger is applied to increase the temperature of the main steam, which helps to improve the efficiency of Rankine cycle. On the other hand, it can overcome the disadvantage of low limit temperature of heat transfer oil in conventional solar trough systems, which helps to achieve higher main steam parameters than traditional solar trough systems. Fourth, condensate of the Rankine cycle is used to cool the Stirling engine array. Rejected heat of the Stirling cycle can be reused by Rankine cycle, which helps to improve the overall system efficiency. Besides, the Stirling engine array may provide a large-scale capacity of Stirling cycle power generation. 
+
+In a conventional dish-Stirling system, the Stirling engine capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it overlaps part of the collector.
+
+In the cascade system, Stirling engines can be put on the ground as a Stirling engine array (SEA). Heat collected by multiple dish collectors is supplied to the SEA by heating fluid. 
+Due to the heat transfer fluid, a heat storage system becomes feasible. %Heat provided to the SEA may be provided by other types of collectors, combination of different types of collectors, or different kinds of heat sources. 
+On the other hand, since the engines are static installations on the ground where space and weight are not at a premium any more, they can reach higher capacities for larger scale applications.
+
+Great attention has focused on the application using parabolic dish to collect heat. Some researchers investigated the impact of various parameters on the optical and thermal performance of the solar dish receivers using Monte Carlo Ray Tracing Method (MCRTM) and/or numerical modeling methods.
+%~\cite{Cheng2013,Mao2014,Wang2010,Wang2013,Zhu2015,Sha2016,Daabo2016}. 
 Some researchers considered the applications with different ways to use the collected heat. Loni et al.~\cite{Loni2016} considered a system using parabolic dish for an organic Rankine cycle. In the proposed system, thermal oil is used as the working fluid to transport the collected heat for the organic Rankine cycle. Wang et al.~\cite{Wang2014} proposed an inverse design method for a cavity receiver used in solar dish Brayton system. Craig et al.~\cite{Craig2016} evaluated a parabolic dish tubular receiver used in a dish Brayton cycle. An approach for incorporating a complex geometry like a tubular receiver generated using CFD software into SolTrace was developed. Aichmayer et al.~\cite{Aichmayer2015} presented a hybrid solar micro gas-turbine system integrating volumetric solar dish receiver. Concerning the solar dish receiver integration, both pressurized and atmospheric configurations have been considered. Lovegrove et al.~\cite{Lovegrove2004} presented an idea of using parabolic dish array to provide heat for ammonia based thermochemical energy storage. In this regard, using parabolic dishes to provide heat for SEA is applicable.
 
 A large number of studies have been done on Stirling engine analysis. To describe a Stirling engine's behavior precisely is a difficult task due to the various losses and irreversibilities in the engine.
@@ -95,11 +118,11 @@ Luo et al.~\cite{Luo2016} proposed a multiple optimization method that combines 
 
 %There are multiple connection types for Stirling engines in an SEA, and the connection type will change the heating and cooling fluid properties, such as flow rate and temperature, of each Stirling engine in an SEA, which can affect the efficiency of each Stirling engine. So the same Stirling engines with the same heating and cooling fluid may produce different amount of work with different thermal efficiencies depending on their connection types.
 
-However, dish-Stirling system has not received wide commercial deployment yet. It is a solar-only generation system, without storage or simple hybridization. Compared with photovoltaics, which is also a solar-only generation system, dish Stirling could not compete in terms of reliability nor cost per unit of energy produced. The Stirling engine capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it overlaps part of the collector.
+%However, dish-Stirling system has not received wide commercial deployment yet. It is a solar-only generation system, without storage or simple hybridization. Compared with photovoltaics, which is also a solar-only generation system, dish Stirling could not compete in terms of reliability nor cost per unit of energy produced. The Stirling engine capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it overlaps part of the collector.
 
-This paper presents a new layout scheme of dish-Stirling system demonstrated in Figure~\ref{fig:Dish_SEA}. In the new scheme, Stirling engines are put on the ground as a Stirling engine array (SEA). Heat collected by multiple dish collectors
+%This paper presents a new layout scheme of dish-Stirling system demonstrated in Figure~\ref{fig:Dish_SEA}. In the new scheme, Stirling engines are put on the ground as a Stirling engine array (SEA). Heat collected by multiple dish collectors
 %, or other types of collectors, or combination of different types of collectors, even heat from different heat sources
- is supplied to the SEA by heating fluid. The new scheme has some advantages. Due to the heat transfer fluid, a heat storage system becomes feasible. Heat provided to the SEA may be provided by other types of collectors, combination of different types of collectors, or different kinds of heat sources. On the other hand, since the engines are static installations on the ground where space and weight are not at a premium any more, they can reach higher capacities.
+ %is supplied to the SEA by heating fluid. The new scheme has some advantages. Due to the heat transfer fluid, a heat storage system becomes feasible. Heat provided to the SEA may be provided by other types of collectors, combination of different types of collectors, or different kinds of heat sources. On the other hand, since the engines are static installations on the ground where space and weight are not at a premium any more, they can reach higher capacities.
 
 %Compared to the traditional arrangement, in which the Stirling engines are put on the focal points of each dish collector separately, 
 
@@ -107,16 +130,17 @@ This paper presents a new layout scheme of dish-Stirling system demonstrated in 
 
 %The Stirling engine is widely used on solar dish system, in which it is put on the focus of parabolic dish to use the heat collected by the dish receiver for power generation. However, solar dish systems are not widely applied yet for its small capacity. Its capacity is mainly constrained by two factors: dish collector size and Stirling engine size. The dish size is limited for the cost and difficulty of production of large mirrors. The Stirling engine size is limited for its low power-to-weight ratio. The tracking feature of dish collector limits the weight of engine on the focal point. Besides, the size of engine is limited for it will overlap part of the collector. This paper presents a solution demonstrated in Figure~\ref{fig:Dish_SEA}. Heat collected by multiple dish collectors, or other types of collectors, or combination of different types of collectors, even heat from different heat sources can be used for a Stirling engine array (SEA). Stirling engines are put on the ground as static installations where space and weight are not at a premium any more. The engines can reach higher capacities, they can be connected in a different connection type and their performance may be improved.
 \nomenclature[C]{SEA}{Stirling engine array}
+%
+%\noindent \begin{figure}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.7\columnwidth]{./graphics/Dish_SEA.pdf}
+%	\caption{New layout scheme of dish-Stirling system}
+%	\label{fig:Dish_SEA}
+%\end{center}
+%\end{figure}
 
-\noindent \begin{figure}[htbp]
-\begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/Dish_SEA.pdf}
-	\caption{New layout scheme of dish-Stirling system}
-	\label{fig:Dish_SEA}
-\end{center}
-\end{figure}
-
-In the proposed scheme, Stirling engines can be connected in different connection types, and their performance is relative with their connection types according to their arrangements. However, the literature review indicates that the analysis of arrangements of Stirling engines, classification and performance of the SEA, has not been reported till now. In this regard, this paper investigated the connection types of SEA and its influence on SEA performance. According to Organ's theory~\cite{Organ1997}, one equivalent analytical Stirling engine model always exists for different types ($\alpha$ type, $\beta$ type and $\gamma$ type) of engines. To find out the influence of connection type of SEA and to avoid falling into the problem of developing specific Stirling engine model, a Stirling engine model based on some assumptions and simplifications was developed. This model was evaluated using experimental data of the General Motor GPU-3 Stirling engine prototype. Imperfect regeneration and some irreversibilities were considered. Heat transfer analysis of Stirling engine with heating and cooling fluids was also included. SEA models of different connection types were built depending on the engine model. Impacts of different parameters on the performance of these models were analyzed.
+In the cascade system, the performance of the Stirling engines is related with their configuration.
+However, the literature review indicates that the analysis of arrangements of Stirling engines, classification and performance of the SEA, has not been reported till now. In this regard, this paper investigated the connection types of SEA and its influence on SEA performance. According to Organ's theory~\cite{Organ1997}, one equivalent analytical Stirling engine model always exists for different types ($\alpha$ type, $\beta$ type and $\gamma$ type) of engines. To find out the influence of connection type of SEA and to avoid falling into the problem of developing specific Stirling engine model, a Stirling engine model based on some assumptions and simplifications was developed. This model was evaluated using experimental data of the General Motor GPU-3 Stirling engine prototype. Imperfect regeneration and some irreversibilities were considered. Heat transfer analysis of Stirling engine with heating and cooling fluids was also included. SEA models of different connection types were built depending on the engine model. Impacts of different parameters on the performance of these models were analyzed.
 
 \section{Connection types of SEA~\label{sec:connectionTypes}}
 For a single Stirling engine, the heat transfer processes between fluids and engine are independent and irrelevant with the direction of the flows, which means the efficiency and power are not affected by the direction of fluids. However, for an SEA, the connection type will affect the temperature profiles through the array and the specific work production, both of which will determine the efficiency and power of the SEA. It is practically significant to investigate the influence of connection type of an SEA on its performance. Using parallel flow, on the one hand, will reduce the flow rate of the fluid, which will reduce the power of each engine; however, on the other hand, will take the advantage of higher inlet heating fluid temperature (or lower inlet cooling fluid temperature), which may increase the power of each engine. friend who is Using serial flow, on the one hand, will increase the flow rate of the fluid, which will increase the power of each engine; however, on the other hand, the inlet heating fluid temperature reduces with the flow direction (or the inlet cooling fluid temperature increases with the flow direction), which leads to lower engine power along the flow direction. Using the same order will lead to largest fluid temperature difference (temperature difference of the heating and cooling fluids) at the first engines and smallest fluid temperature difference at the last engines. Using the reverse order will lead to more averaged fluid temperature differences of the engines. For a heat exchanger, the reverse order (counterflow), which leads to a smaller fluid temperature difference, has a better heat transfer effect for its lower exergy loss. However, for a Stirling engine, the smaller fluid temperature difference leads to lower performance due to the lower temperature difference of the working gas in the hot space and cold space. To find out the influence of connection types on the performance of SEA, it is essential to classify the connection types.
@@ -675,12 +699,19 @@ SEA models with specified parameters in Table~\ref{tab:parameters} were built an
 \subsection{Effects of $T_{i,h}$}
 According to Carnot cycle efficiency formula, the temperature of heating fluid determines the efficiency of Stirling engine array. For a Stirling engine, lower temperature heating fluid leads to a lower efficiency. The efficiency and output power may drop to 0 due to its insufficient heating fluid temperature to drive the engine.
 
-\noindent \begin{figure}[htbp]
-\begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/T_ih}
+%\noindent \begin{figure}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.7\columnwidth]{./graphics/T_ih}
+%	\caption{Influence of $T_{i,h}$ on efficiency and power of SEA}
+%	\label{fig:Ti_h}
+%\end{center}
+%\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\gnuplotloadfile[terminal=epslatex, terminaloptions=color dashed]{T_ih.gnuplot}
 	\caption{Influence of $T_{i,h}$ on efficiency and power of SEA}
-	\label{fig:Ti_h}
-\end{center}
+	\label{fig:T_ih}
 \end{figure}
 
 Curves of performance of SEAs and $T_{i,h}$ are shown in Figure~\ref{fig:Ti_h}.
@@ -693,48 +724,69 @@ From curves in Figure~\ref{fig:Ti_h}, it can be concluded that Type 2 and Type 3
 
 According to Equation~\ref{Eq:q_h},~\ref{Eq:q_c}, $q_mc_p$ (both $q_{m,h}c_{p,h}$ and $q_{m,c}c_{p,c}$) will affect the heat transfer process, which is one of the vital factor for the performance of SEA.
 
+%\noindent \begin{figure}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.7\columnwidth]{./graphics/qm_hcp_h}
+%	\caption{Influence of $q_{m,h}c_{p,h}$ on efficiency and power of SEA}
+%	\label{fig:qm_hcp_h}
+%\end{center}
+%\end{figure}
 
-\noindent \begin{figure}[htbp]
-\begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/qm_hcp_h}
+\begin{figure}[htbp]
+	\centering
+	\gnuplotloadfile[terminal=epslatex, terminaloptions=color dashed]{q_mhcp_h.gnuplot}
 	\caption{Influence of $q_{m,h}c_{p,h}$ on efficiency and power of SEA}
 	\label{fig:qm_hcp_h}
-\end{center}
 \end{figure}
 
 Curves of performance of SEAs and $q_{m,h}c_{p,h}$ are shown in Figure~\ref{fig:qm_hcp_h}.
 %For a connection type of SEA, $q_{m,h}c_{p,h}$ has little effect on the performance of the SEA if it is big enough to drive the engines. This means increase the mass flow rate of heating fluid will not increase the efficiency and power of SEA significantly. 
 For a large $q_{m,h}c_{p,h}$ ($>$ 800 W/K), Type 2 , Type 3 and Type 5 have similar performance, which can be interpreted as the cooling fluid has the same properties for the two types of SEAs, and for a large $q_{m,h}c_{p,h}$, the heating fluid has similar effect after diverged. Similar performance of Type 1 and Type 4 can be also interpreted for the same reason.
 
-\noindent \begin{figure}[htbp]
-\begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/qm_ccp_c}
-	\caption{Influence of $q_{m,c}c_{p,c}$ on efficiency and power of SEA}
+%\noindent \begin{figure}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.7\columnwidth]{./graphics/qm_ccp_c}
+%	\caption{Influence of $q_{m,c}c_{p,c}$ on efficiency and power of SEA}
+%	\label{fig:qm_ccp_c}
+%\end{center}
+%\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\gnuplotloadfile[terminal=epslatex, terminaloptions=color dashed]{q_mccp_c.gnuplot}
+	\caption{Influence of $\dot{m}_cc_{p,c}$ on efficiency and power of SEA}
 	\label{fig:qm_ccp_c}
-\end{center}
 \end{figure}
 
 Curves of performance of SEAs and $q_{m,c}c_{p,c}$ are shown in Figure~\ref{fig:qm_ccp_c}. For a connection type of SEA, the performance improves with the increase of $q_{m,c}c_{p,c}$. For a large $q_{m,c}c_{p,c}$ ($>$ 800 W/K), Type 2 and Type 3 have similar performance, which means the flow order doesn't affect the performance of SEA with a large $q_{m,c}c_{p,c}$. There exists an intersection point (at 830 W/K) of curves of Type 4 and Type 5. For a larger $q_{m,c}c_{p,c}$, Type 4 has a better performance, and vice versa. This can be interpreted that larger $q_{m,c}c_{p,c}$ weaken the drawback of larger temperature rise of parallel flow, while for the heating fluid, temperature drop of serial flow is smaller than parallel flow.
 
 \subsection{Effects of $n_{se}$}
 
-By varying the number of engines in SEA, the performance levels changed accordingly. $n_{se}$ may affect both the flow rates and temperatures of fluids of each engine. Figure~\ref{fig:n_se} shows curves of performance of SEAs with different $n_{se}$. As it is shown, with an increase of $n_{se}$ leads to a reduction of $\eta$ for all SEAs due to smaller heating and cooling average temperature difference for more engines. For some types of SEA, when $n_{se}$ is larger than a critical value, some of the engines in the SEA will not work and the curves will dive. E.g. for SEA of Type 1, when $n_{se}$ is larger than 9, all the engines stop working, turning points at 9 can be found on the $\eta-n_{se}$, $P-n_{se}$ curves in Figure~\ref{fig:n_se}.
+By varying the number of engines in SEA, the performance levels changed accordingly. $n_{se}$ may affect both the flow rates and temperatures of fluids of each engine. Figure~\ref{fig:n_se} shows curves of performance of SEAs with different $n_{se}$. As it is shown, with an increase of $n_{se}$ leads to a reduction of $\eta$ for all SEAs due to smaller heating and cooling average temperature difference for more engines. For some types of SEA, when $n_{se}$ is larger than a critical value, some of the engines in the SEA will not work and the curves will dive. E.g. for SEA of Type 1, when $n_{se}$ is larger than 9, all the engines stop working, turning points at 9 can be found on the $\eta$-$n_{se}$, $P$-$n_{se}$ curves in Figure~\ref{fig:n_se}.
 
-\noindent \begin{figure}[htbp]
-\begin{center}
-	\includegraphics[width = 0.7\columnwidth]{./graphics/n_se}
+%\noindent \begin{figure}[htbp]
+%\begin{center}
+%	\includegraphics[width = 0.7\columnwidth]{./graphics/n_se}
+%	\caption{Influence of $n_{se}$ on efficiency and power of SEA}
+%	\label{fig:n_se}
+%\end{center}
+%\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\gnuplotloadfile[terminal=epslatex, terminaloptions=color dashed]{n_se.gnuplot}
 	\caption{Influence of $n_{se}$ on efficiency and power of SEA}
 	\label{fig:n_se}
-\end{center}
 \end{figure}
-
-For Type 1, when $n_{se} \geqslant 10$, all engines stop working for given heating and cooling fluids due to small $q_mc_p$. For Type 2 and Type 3, every engine in the SEAs works, by increasing $n_{se}$, $\eta$ reduces due to smaller temperature difference of the fluids, and $P$ increases due to more operating engines. For Type 4, by checking results, it can be found that when $n_{se} = 13$,  the last engine doesn't work; when $n_{se} = 14$, only the first 10 engines will work; when $n_{se} = 15$, the working engine number drops to 9. For Type 5, by checking results, it can be found that when $n_{se} = 12$, the last 2 engines stop working; when $n_{se} = 13$, only the first 8 engines will work; when $n_{se} = 14$, the working engine number drops to 6; when $n_{se} = 15$, the working engine number drops to 4.
 
 For a certain connection type, increase $n_{se}$ will reduce the efficiency of SEA. For some connection types, increase $n_{se}$ will reduce the output power $P$ due to inoperative engines and smaller output power engines. It is important to choose the number of engines for some connection types of SEA. 
 
+For Type 1, when $n_{se} \geqslant 10$, all engines stop working for given heating and cooling fluids due to small $\dot{m}c_p$. For Type 2 and Type 3, every engine in the SEAs works. $\eta$ reduces with increasing $n_{se}$ due to smaller temperature difference of the fluids, and $P$ increases due to more operating engines. For Type 4, by checking results, it can be found that when $n_{se} = 13$,  the last engine doesn't work; when $n_{se} = 14$, only the first 10 engines will work; when $n_{se} = 15$, the working engine number drops to 9. For Type 5, by checking results, it can be found that when $n_{se} = 12$, the last 2 engines stop working; when $n_{se} = 13$, only the first 8 engines will work; when $n_{se} = 14$, the working engine number drops to 6; when $n_{se} = 15$, the working engine number drops to 4. The aforementioned strategy is applied to achieve maximum total output power. For Type 4, when $n_{se} \geqslant 13$, the number of the operating engines is changed to be 12 to achieve maximum output power. For Type 5, when $n_{se} \geqslant 12$, the number of the operating engines is changed to be 11 to achieve maximum output power.
+Horizontal lines in Figure~\ref{fig:n_se} shows the application results of the strategy. 
+
 \section{Conclusion}
 
-A new layout scheme of the solar dish system by using SEA were proposed in this paper. Connection type of the engines may change the flow rates and temperatures of the fluids, as a result the performance of the SEA will be different depending on the connection schemes. In order to compare performance of SEAs with different arrangements, five basic connection types of SEA were summed up according to flow type and flow order. 
+This paper focused on the configuration optimization of Stirling engine array that can be used in a cascade system. Connection type of the engines may change the flow rates and temperatures of the fluids, as a result the performance of the SEA will be different depending on the connection schemes. In order to compare performance of SEAs with different arrangements, five basic connection types of SEA were summed up according to flow type and flow order. 
 
 Analytical Stirling engine model was created to develop the SEA models for the investigation of influence of connection types. Imperfect regeneration and cycle irreversibility of Stirling engine cycle and heat exchange process between fluids and engine were considered in the model. Algorithm to numerically solve different connection types of SEA was developed. The model was evaluated by considering the prototype GPU-3 Stirling engine as a case study. Result shows that the proposed model predicted the performance with higher accuracy than Simple model~\cite{Urieli1984} and Simple II model~\cite{Strauss2010}. 
 
