@@ -18,7 +18,7 @@ unset grid
 set key autotitle columnheader
 set xlabel '$T_{i,h}$ (K)'
 set ylabel '$\eta$'
-plot 'T_ih.dat' using 1:2 w lp lw 4 ps 2 pt 1,\
+plot 'data/T_ih.dat' using 1:2 w lp lw 4 ps 2 pt 1,\
     '' using 1:3 w lp lw 4 ps 2 pt 2,\
     '' using 1:4 w lp lw 4 ps 2 pt 3,\
     '' using 1:5 w lp lw 4 ps 2 pt 4,\
@@ -40,7 +40,7 @@ set xlabel '$T_{i,h}$ (K)'
 set ylabel '$P$ (W)'
 set origin 0,0
 set size 1,1
-plot 'T_ih.dat' using 1:7 w lp lw 4 ps 2 pt 1,\
+plot 'data/T_ih.dat' using 1:7 w lp lw 4 ps 2 pt 1,\
     '' using 1:8 w lp lw 4 ps 2 pt 2,\
     '' using 1:9 w lp lw 4 ps 2 pt 3,\
     '' using 1:10 w lp lw 4 ps 2 pt 4,\

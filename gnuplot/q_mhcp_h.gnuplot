@@ -8,17 +8,17 @@ set border 3
 set key w 4
 set key nobox
 set sample 1000
-set xr [0:1800]
-set yr [0.195:0.240]
-set xtics nomirror 0,200,1800
-set ytics nomirror 0.195,0.005,0.240
+set xr [100:1900]
+set yr [0.210:0.234]
+set xtics nomirror 200,200,1800
+set ytics nomirror 0.210,0.002,0.234
 set mxtics 2
 set mytics 2
 unset grid
 set key autotitle columnheader
-set xlabel '$\dot{m}_cc_{p,c}$ (W/K)'
+set xlabel '$\dot{m}_hc_{p,h}$ (W/K)'
 set ylabel '$\eta$'
-plot 'q_mccp_c.dat' using 1:2 w lp lw 4 ps 2 pt 1,\
+plot 'data/q_mhcp_h.dat' using 1:2 w lp lw 4 ps 2 pt 1,\
     '' using 1:3 w lp lw 4 ps 2 pt 2,\
     '' using 1:4 w lp lw 4 ps 2 pt 3,\
     '' using 1:5 w lp lw 4 ps 2 pt 4,\
@@ -29,18 +29,18 @@ set border 3
 set key w 4
 set key nobox
 set sample 1000
-set xr [0:1800]
-set yr [6250:9750]
-set xtics nomirror 0,200,1800
-set ytics nomirror 6500,500,9500
+set xr [100:1900]
+set yr [7100:9100]
+set xtics nomirror 200,200,1800
+set ytics nomirror 7200,200,9000
 set mxtics 2
 set mytics 2
 unset grid
-set xlabel '$\dot{m}_cc_{p,c}$ (W/K)'
+set xlabel '$\dot{m}_hc_{p,h}$ (W/K)'
 set ylabel '$P$ (W)'
 set origin 0,0
 set size 1,1
-plot 'q_mccp_c.dat' using 1:7 w lp lw 4 ps 2 pt 1,\
+plot 'data/q_mhcp_h.dat' using 1:7 w lp lw 4 ps 2 pt 1,\
     '' using 1:8 w lp lw 4 ps 2 pt 2,\
     '' using 1:9 w lp lw 4 ps 2 pt 3,\
     '' using 1:10 w lp lw 4 ps 2 pt 4,\

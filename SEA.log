@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.5.5)  18 OCT 2018 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.5.5)  19 OCT 2018 19:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -347,9 +347,9 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-201810181051.tex)...executed.
+runsystem(touch w18-test-201810191197.tex)...executed.
 
-runsystem(rm -f w18-test-201810181051.tex)...executed.
+runsystem(rm -f w18-test-201810191197.tex)...executed.
 
 runsystem(rm -f "SEA.gnuploterrors")...executed.
 
@@ -557,17 +557,17 @@ Package gnuplottex Info: SEA-gnuplottex-fig1.gnuplot converted on input line 712
 \gptboxwidth=\skip55
 \gptboxtext=\box37
 Package epstopdf Info: Source file: <SEA-gnuplottex-fig1.eps>
-(epstopdf)                    date: 2018-10-18 17:31:36
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 23941 bytes
 (epstopdf)             Output file: <SEA-gnuplottex-fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:35
+(epstopdf)                    date: 2018-10-19 19:57:43
 (epstopdf)                    size: 7127 bytes
 (epstopdf)             Command: <epstopdf --outfile=SEA-gnuplottex-fig1-eps-converted-to.pdf SEA-gnuplottex-fig1.eps>
 (epstopdf)             \includegraphics on input line 144.
 runsystem(epstopdf --outfile=SEA-gnuplottex-fig1-eps-converted-to.pdf SEA-gnuplottex-fig1.eps)...executed.
 
 Package epstopdf Info: Result file: <SEA-gnuplottex-fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:36
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 7127 bytes.
  <SEA-gnuplottex-fig1-eps-converted-to.pdf, id=417, 361.35pt x 505.89pt>
 File: SEA-gnuplottex-fig1-eps-converted-to.pdf Graphic file (type pdf)
@@ -575,15 +575,6 @@ File: SEA-gnuplottex-fig1-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: SEA-gnuplottex-fig1-eps-converted-to.pdf used on input line 144.
 (pdftex.def)             Requested size: 361.34912pt x 505.88875pt.
 )
-
-LaTeX Warning: Reference `fig:Ti_h' on page 18 undefined on input line 717.
-
-
-LaTeX Warning: Reference `fig:Ti_h' on page 18 undefined on input line 718.
-
-
-LaTeX Warning: Reference `fig:Ti_h' on page 18 undefined on input line 721.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 723.
@@ -608,19 +599,19 @@ runsystem(gnuplot SEA-gnuplottex-fig2.gnuplot 2>>SEA.gnuploterrors)...executed.
 Package gnuplottex Info: SEA-gnuplottex-fig2.gnuplot converted on input line 737.
  (./SEA-gnuplottex-fig2.tex
 Package epstopdf Info: Source file: <SEA-gnuplottex-fig2.eps>
-(epstopdf)                    date: 2018-10-18 17:31:36
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 24646 bytes
 (epstopdf)             Output file: <SEA-gnuplottex-fig2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:35
+(epstopdf)                    date: 2018-10-19 19:57:43
 (epstopdf)                    size: 7636 bytes
 (epstopdf)             Command: <epstopdf --outfile=SEA-gnuplottex-fig2-eps-converted-to.pdf SEA-gnuplottex-fig2.eps>
 (epstopdf)             \includegraphics on input line 161.
 runsystem(epstopdf --outfile=SEA-gnuplottex-fig2-eps-converted-to.pdf SEA-gnuplottex-fig2.eps)...executed.
 
 Package epstopdf Info: Result file: <SEA-gnuplottex-fig2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:37
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 7636 bytes.
- <SEA-gnuplottex-fig2-eps-converted-to.pdf, id=420, 361.35pt x 505.89pt>
+ <SEA-gnuplottex-fig2-eps-converted-to.pdf, id=423, 361.35pt x 505.89pt>
 File: SEA-gnuplottex-fig2-eps-converted-to.pdf Graphic file (type pdf)
  <use SEA-gnuplottex-fig2-eps-converted-to.pdf>
 Package pdftex.def Info: SEA-gnuplottex-fig2-eps-converted-to.pdf used on input line 161.
@@ -634,19 +625,19 @@ runsystem(gnuplot SEA-gnuplottex-fig3.gnuplot 2>>SEA.gnuploterrors)...executed.
 Package gnuplottex Info: SEA-gnuplottex-fig3.gnuplot converted on input line 756.
  (./SEA-gnuplottex-fig3.tex
 Package epstopdf Info: Source file: <SEA-gnuplottex-fig3.eps>
-(epstopdf)                    date: 2018-10-18 17:31:37
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 24478 bytes
 (epstopdf)             Output file: <SEA-gnuplottex-fig3-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:35
+(epstopdf)                    date: 2018-10-19 19:57:44
 (epstopdf)                    size: 7458 bytes
 (epstopdf)             Command: <epstopdf --outfile=SEA-gnuplottex-fig3-eps-converted-to.pdf SEA-gnuplottex-fig3.eps>
 (epstopdf)             \includegraphics on input line 157.
 runsystem(epstopdf --outfile=SEA-gnuplottex-fig3-eps-converted-to.pdf SEA-gnuplottex-fig3.eps)...executed.
 
 Package epstopdf Info: Result file: <SEA-gnuplottex-fig3-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:37
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 7458 bytes.
- <SEA-gnuplottex-fig3-eps-converted-to.pdf, id=422, 361.35pt x 505.89pt>
+ <SEA-gnuplottex-fig3-eps-converted-to.pdf, id=425, 361.35pt x 505.89pt>
 File: SEA-gnuplottex-fig3-eps-converted-to.pdf Graphic file (type pdf)
  <use SEA-gnuplottex-fig3-eps-converted-to.pdf>
 Package pdftex.def Info: SEA-gnuplottex-fig3-eps-converted-to.pdf used on input line 157.
@@ -672,19 +663,19 @@ runsystem(gnuplot SEA-gnuplottex-fig4.gnuplot 2>>SEA.gnuploterrors)...executed.
 Package gnuplottex Info: SEA-gnuplottex-fig4.gnuplot converted on input line 777.
  (./SEA-gnuplottex-fig4.tex
 Package epstopdf Info: Source file: <SEA-gnuplottex-fig4.eps>
-(epstopdf)                    date: 2018-10-18 17:31:37
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 24143 bytes
 (epstopdf)             Output file: <SEA-gnuplottex-fig4-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:35
+(epstopdf)                    date: 2018-10-19 19:57:44
 (epstopdf)                    size: 6974 bytes
 (epstopdf)             Command: <epstopdf --outfile=SEA-gnuplottex-fig4-eps-converted-to.pdf SEA-gnuplottex-fig4.eps>
 (epstopdf)             \includegraphics on input line 153.
 runsystem(epstopdf --outfile=SEA-gnuplottex-fig4-eps-converted-to.pdf SEA-gnuplottex-fig4.eps)...executed.
 
 Package epstopdf Info: Result file: <SEA-gnuplottex-fig4-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-18 17:31:37
+(epstopdf)                    date: 2018-10-19 19:57:45
 (epstopdf)                    size: 6974 bytes.
- <SEA-gnuplottex-fig4-eps-converted-to.pdf, id=452, 361.35pt x 505.89pt>
+ <SEA-gnuplottex-fig4-eps-converted-to.pdf, id=455, 361.35pt x 505.89pt>
 File: SEA-gnuplottex-fig4-eps-converted-to.pdf Graphic file (type pdf)
  <use SEA-gnuplottex-fig4-eps-converted-to.pdf>
 Package pdftex.def Info: SEA-gnuplottex-fig4-eps-converted-to.pdf used on input line 153.
@@ -702,25 +693,21 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 807.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 807.
 Package rerunfilecheck Info: File `SEA.out' has not changed.
 (rerunfilecheck)             Checksum: E76C0F84E89C56EBEB791B9097826505;932.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 807.
  ) 
 Here is how much of TeX's memory you used:
- 8061 strings out of 492995
- 115529 string characters out of 6132705
+ 8060 strings out of 492995
+ 115519 string characters out of 6132705
  243911 words of memory out of 5000000
- 11316 multiletter control sequences out of 15000+600000
+ 11315 multiletter control sequences out of 15000+600000
  11250 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,17n,33p,2351b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on SEA.pdf (28 pages, 1544901 bytes).
+Output written on SEA.pdf (28 pages, 1544964 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
+ 595 PDF objects out of 1000 (max. 8388607)
+ 458 compressed objects within 5 object streams
  125 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
